@@ -5,11 +5,11 @@
 		<description>The content from the FFXIV DND Compendium.</description>
 		<author url="https://www.reddit.com/user/SilentSoren/">Silent Soren</author>
 		<update version="1.0.0">
-			<file name="ffxiv.index" url="https://github.com/brentonmaas/ffxiv_aurorabuilder/blob/main/ffxiv.index" />
+			<file name="ffxiv.index" url="https://raw.githubusercontent.com/brentonmaas/ffxiv_aurorabuilder/master/ffxiv.index" />
 		</update>
 	</info>
 	<files>
-		<obsolete name="sources.xml" url="https://github.com/brentonmaas/ffxiv_aurorabuilder/blob/main/ffxiv/sources.xml" />
-		<file name="compendium.index" url="https://github.com/brentonmaas/ffxiv_aurorabuilder/blob/main/ffxiv/compendium/compendium.index" />
+		<obsolete name="sources.xml" url="https://raw.githubusercontent.com/brentonmaas/ffxiv_aurorabuilder/master/ffxiv/sources.xml" />
+		<file name="compendium.index" url="https://raw.githubusercontent.com/brentonmaas/ffxiv_aurorabuilder/master/ffxiv/compendium/compendium.index" />
 	</files>
 </index>

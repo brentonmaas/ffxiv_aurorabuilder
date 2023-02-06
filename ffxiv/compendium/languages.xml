@@ -3,7 +3,7 @@
     <info>
         <name>Languages</name>
         <update version="1.0.0">
-            <file name="languages.xml" url="https://github.com/brentonmaas/ffxiv_aurorabuilder/blob/main/ffxiv/compendium/languages.xml" />
+            <file name="languages.xml" url="https://raw.githubusercontent.com/brentonmaas/ffxiv_aurorabuilder/master/ffxiv/compendium/languages.xml" />
         </update>
     </info>
 

@@ -2,7 +2,7 @@
 <elements>
     <info>
         <update version="1.0.0">
-            <file name="source.xml" url="https://github.com/brentonmaas/ffxiv_aurorabuilder/blob/main/ffxiv/compendium/source.xml" />
+            <file name="source.xml" url="https://raw.githubusercontent.com/brentonmaas/ffxiv_aurorabuilder/master/ffxiv/compendium/source.xml" />
         </update>
     </info>
     <element name="Final Fantasy XIV DND Compendium" type="Source" source="ffxiv" id="ID_SILENT_SOREN_FFXIV_DND">
