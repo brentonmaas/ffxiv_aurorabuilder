@@ -10,6 +10,6 @@
 	</info>
 	<files>
 		<obsolete name="sources.xml" url="https://raw.githubusercontent.com/brentonmaas/ffxiv_aurorabuilder/master/ffxiv/sources.xml" />
-		<file name="compendium.index" url="https://raw.githubusercontent.com/brentonmaas/ffxiv_aurorabuilder/master/ffxiv/compendium/compendium.index" />
+		<file name="compendium.index" url="https://raw.githubusercontent.com/brentonmaas/ffxiv_aurorabuilder/master/ffxiv/compendium.index" />
 	</files>
 </index>
