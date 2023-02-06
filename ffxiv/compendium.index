@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+    <info>
+        <name>Final Fantasy XIV DND Compendium</name>
+        <description>A Companion Guidebook for use alongside the Dungeons and Dragons 5th Edition Player's Handbook to bring Final Fantasy XIV to your table.</description>
+        <author url="https://www.reddit.com/user/SilentSoren/">Silent Soren</author>
+        <update version="1.0">
+            <file name="compendium.index" url="https://github.com/brentonmaas/ffxiv_aurorabuilder/blob/main/ffxiv/compendium.index" />
+        </update>
+    </info>
+    <files>
+        <file name="source.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/dungeon-masters-guide/source.xml" />
+        <file name="cleric-deathdomain.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/dungeon-masters-guide/classes/cleric-deathdomain.xml" />
+    </files>
+</index>

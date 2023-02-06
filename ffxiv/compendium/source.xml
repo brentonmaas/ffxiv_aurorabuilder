@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <update version="1.0.0">
+            <file name="source.xml" url="https://github.com/brentonmaas/ffxiv_aurorabuilder/blob/main/ffxiv/compendium/source.xml" />
+        </update>
+    </info>
+    <element name="Final Fantasy XIV DND Compendium" type="Source" source="ffxiv" id="ID_SILENT_SOREN_FFXIV_DND">
+        <description>
+            <![CDATA[<p><strong>A love letter to D&D and Final Fantasy XIV. Its been a long road, thank you for walking it with me. Thank you to everyone who has helped along the way.</strong></p>]]>
+        </description>
+        <setters>
+            <set name="abbreviation">FFXIV DND</set>
+            <set name="url">https://www.gmbinder.com/share/-LsDqsNbupzeLhkTIcPv</set>
+            <set name="image">https://media.dnd.wizards.com/styles/product_tabletop_left/public/images/product/DnD_DMG.png</set>
+            <set name="errata">https://media.wizards.com/2018/dnd/downloads/DMG-Errata.pdf</set>
+            <set name="author" abbreviation="WOTC" url="http://dnd.wizards.com">Wizards of the Coast</set>
+            <set name="official">true</set>
+            <set name="core">true</set>
+            <set name="release">20140930</set>
+        </setters>
+    </element>
+</elements>

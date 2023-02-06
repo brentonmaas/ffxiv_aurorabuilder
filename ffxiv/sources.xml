@@ -2,7 +2,7 @@
 <elements>
     <info>
         <update version="1.0.0">
-            <file name="sources.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/sources.xml" />
+            <file name="sources.xml" url="https://github.com/brentonmaas/ffxiv_aurorabuilder/blob/main/ffxiv/sources.xml" />
         </update>
     </info>
 
