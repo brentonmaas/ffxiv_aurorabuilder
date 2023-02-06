@@ -12,12 +12,11 @@
         <setters>
             <set name="abbreviation">FFXIV DND</set>
             <set name="url">https://www.gmbinder.com/share/-LsDqsNbupzeLhkTIcPv</set>
-            <set name="image">https://media.dnd.wizards.com/styles/product_tabletop_left/public/images/product/DnD_DMG.png</set>
-            <set name="errata">https://media.wizards.com/2018/dnd/downloads/DMG-Errata.pdf</set>
-            <set name="author" abbreviation="WOTC" url="http://dnd.wizards.com">Wizards of the Coast</set>
-            <set name="official">true</set>
-            <set name="core">true</set>
-            <set name="release">20140930</set>
+            <set name="image">https://github.com/brentonmaas/ffxiv_aurorabuilder/blob/main/cover_image.png</set>
+            <set name="errata">https://www.gmbinder.com/share/-LsDqsNbupzeLhkTIcPv</set>
+            <set name="author" abbreviation="SS" url="https://www.reddit.com/user/SilentSoren/">Silent Soren</set>
+            <set name="third-party">true</set>
+            <set name="release">20211024</set>
         </setters>
     </element>
 </elements>

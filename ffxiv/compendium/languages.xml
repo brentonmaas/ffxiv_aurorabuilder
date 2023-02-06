@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Languages</name>
+        <update version="1.0.0">
+            <file name="languages.xml" url="https://github.com/brentonmaas/ffxiv_aurorabuilder/blob/main/ffxiv/compendium/languages.xml" />
+        </update>
+    </info>
+
+    <!-- standard -->
+
+    <!-- exotic -->
+    <element name="Auri" type="Language" source="Final Fantasy XIV DND Compendium" id="ID_LANGUAGE_AURI">
+        <supports>Exotic</supports>
+        <description>
+            <p>Typically spoken by Au Ra.</p>
+        </description>
+        <setters>
+            <set name="exotic">true</set>
+            <set name="speakers">Au Ra</set>
+            <set name="script">Auri</set>
+        </setters>
+    </element>
+
+    <!-- secret -->
+
+</elements>
