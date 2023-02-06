@@ -150,6 +150,17 @@
     </element>
     <element name="Polite Society" type="Racial Trait" source="Final Fantasy XIV DND Compendium" id="ID_RACIAL_TRAIT_POLITE_SOCIETY">
         <description>
+            <p>You have proficiency in the Persuasion skill.</p>
+        </description>
+        <sheet display="false">
+            <description>You have proficiency in the Persuasion skill.</description>
+        </sheet>
+        <rules>
+            <grant type="Proficiency" id="ID_PROFICIENCY_SKILL_SURVIVAL" />
+        </rules>
+    </element>
+    <element name="Unwavering Loyalty" type="Racial Trait" source="Final Fantasy XIV DND Compendium" id="ID_RACIAL_TRAIT_UNWAVERING_LOYALTY">
+        <description>
             <p>You have advantage on saving throws against being charmed.</p>
         </description>
         <sheet>
