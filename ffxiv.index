@@ -5,7 +5,7 @@
 		<description>The content from the FFXIV DND Compendium.</description>
 		<author url="https://www.reddit.com/user/SilentSoren/">Silent Soren</author>
 		<update version="1.0.0">
-			<file name="core.index" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core.index" />
+			<file name="ffxiv.index" url="https://github.com/brentonmaas/ffxiv_aurorabuilder/blob/main/ffxiv.index" />
 		</update>
 	</info>
 	<files>
