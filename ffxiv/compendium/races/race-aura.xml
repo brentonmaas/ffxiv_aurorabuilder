@@ -3,7 +3,7 @@
     <info>
         <name>Au Ra</name>
         <author url="https://www.gmbinder.com/share/-LsDqsNbupzeLhkTIcPv">Silent Soren</author>
-        <update version="1.0.1">
+        <update version="1.0.2">
             <file name="race-aura.xml" url="https://raw.githubusercontent.com/brentonmaas/ffxiv_aurorabuilder/master/ffxiv/compendium/races/race-aura.xml" />
         </update>
     </info>
