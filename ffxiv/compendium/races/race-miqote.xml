@@ -3,12 +3,12 @@
     <info>
         <name>Miqo'te</name>
         <author url="https://www.gmbinder.com/share/-LsDqsNbupzeLhkTIcPv">Silent Soren</author>
-        <update version="1.0.0">
+        <update version="1.0.1">
             <file name="race-miqote.xml" url="https://raw.githubusercontent.com/brentonmaas/ffxiv_aurorabuilder/master/ffxiv/compendium/races/race-miqote.xml" />
         </update>
     </info>
 
-    <element name="Miqo'te" type="Race" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_RACE_MIQOTE">
+    <element name="Miqote" type="Race" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_RACE_MIQOTE">
         <description>
             <p class="flavor">The Miqo'te are an aloof people who value their independence from the world. Centuries ago the Miqo'te migrated, Seekers spreading across the world in low numbers while Keepers finding dense forests as a new home. Traditionally they avoid the other races, but over time more and more Miqo'te have integrated into society with pockets of die hard traditional Miqo'te tribes surviving out in the world.</p>
             <h4>LITHE HUNTERS</h4>
@@ -78,18 +78,18 @@
 			<grant type="Proficiency" id="ID_PROFICIENCY_SKILL_PERCEPTION" />
 		</rules>
 	</element>
-    <element name="Miqo'te Subrace" type="Racial Trait" source="Final Fantasy XIV DND Compendium" id="ID_RACIAL_TRAIT_MIQOTE_SUBRACE">
+    <element name="Miqote Subrace" type="Racial Trait" source="Final Fantasy XIV DND Compendium" id="ID_RACIAL_TRAIT_MIQOTE_SUBRACE">
         <description>
             <p>The Miqo'te are made up of two distinct clans. Select one of the two subraces of Miqo'te.</p>
         </description>
         <sheet display="false"/>
         <rules>
-            <select type="Sub Race" name="Miqo'te Subrace" supports="Miqo'te" />
+            <select type="Sub Race" name="Miqote Subrace" supports="Miqote" />
         </rules>
     </element>
 
     <element name="Seekers of the Sun" type="Sub Race" source="Final Fantasy XIV DND Compendium" id="ID_SUB_RACE_SEEKERS">
-        <supports>Miqo'te</supports>
+        <supports>Miqote</supports>
         <description>
             <p>As a Seeker of the sun, you come from a race of renowned hunters. The Seekers live in a patriarchal society which worships the sun and Azeyma. This past has given you the tools to become a deadly hunter, capable of wounding their marks with great efficiency.</p>
             <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Charisma score increases by 1.</p>
@@ -116,7 +116,7 @@
     </element>
 
     <element name="Keepers of the Moon" type="Sub Race" source="Final Fantasy XIV DND Compendium" id="ID_SUB_RACE_KEEPERS">
-        <supports>Miqo'te</supports>
+        <supports>Miqote</supports>
         <description>
             <p>As a Keeper of the Moon, you come from a highly spiritual matriarchy. Your people worship and moon and the goddess Menphina. Many Keepers make use of war paint as they believe it helps to channel the power of the moon into their bodies. Keepers are renown for their tenacity in battle when defending their homelands, often pushing beyond their limits when pressed.</p>
             <p class="indent"><strong><em>Ability Score Increase.</em></strong> Your Wisdom score increases by 1.</p>
