@@ -3,7 +3,7 @@
     <info>
         <name>Au Ra</name>
         <author url="https://www.gmbinder.com/share/-LsDqsNbupzeLhkTIcPv">Silent Soren</author>
-        <update version="1.0.0">
+        <update version="1.0.1">
             <file name="race-aura.xml" url="https://raw.githubusercontent.com/brentonmaas/ffxiv_aurorabuilder/master/ffxiv/compendium/races/race-aura.xml" />
         </update>
     </info>
@@ -128,7 +128,7 @@
         <description>
             <p>When you score a critical hit with a melee weapon attack, you can roll one of the weapon’s damage dice one additional time and add it to the extra damage of the critical hit.</p>
         </description>
-        <sheet display="false">
+        <sheet>
             <description>When you score a critical hit with a melee weapon attack, you can roll one of the weapon’s damage dice one additional time and add it to the extra damage of the critical hit.</description>
         </sheet>
     </element>
