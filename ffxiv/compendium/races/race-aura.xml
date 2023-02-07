@@ -85,7 +85,7 @@
             <stat name="ac:natural armor aura:dexterity" value="dexterity:modifier" />
             <stat name="ac:natural armor aura" value="ac:natural armor aura:base" />
             <stat name="ac:natural armor aura" value="ac:natural armor aura:dexterity" />
-            <stat name="ac:calculation" value="ac:natural armor aura" bonus="calculation" equipped="[armor:none]" alt="Natural Armor (aura)" />
+            <stat name="ac:calculation" value="ac:natural armor aura" bonus="calculation" equipped="[armor:none]" alt="Natural Armor (Au Ra)" />
         </rules>
     </element>
     <element name="Au Ra Subrace" type="Racial Trait" source="Final Fantasy XIV DND Compendium" id="ID_RACIAL_TRAIT_AURA_SUBRACE">
