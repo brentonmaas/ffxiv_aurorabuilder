@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
     <info>
-        <name>Miqo'te</name>
+        <name>Miqote</name>
         <author url="https://www.gmbinder.com/share/-LsDqsNbupzeLhkTIcPv">Silent Soren</author>
         <update version="1.0.1">
             <file name="race-miqote.xml" url="https://raw.githubusercontent.com/brentonmaas/ffxiv_aurorabuilder/master/ffxiv/compendium/races/race-miqote.xml" />
@@ -56,6 +56,7 @@
             <grant type="Language" id="ID_LANGUAGE_COMMON" />
             <grant type="Racial Trait" id="ID_RACIAL_TRAIT_EXTRA_LANGUAGE" />
             <grant type="Racial Trait" id="ID_RACIAL_TRAIT_MIQOTE_PREDATION" />
+            <grant type="Racial Trait" id="ID_RACIAL_TRAIT_MIQOTE_SUBRACE" />
         </rules>
     </element>
 	<element name="Extra Language" type="Racial Trait" source="Final Fantasy XIV DND Compendium" id="ID_RACIAL_TRAIT_EXTRA_LANGUAGE">
