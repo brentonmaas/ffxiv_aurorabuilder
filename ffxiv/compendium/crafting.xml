@@ -23,7 +23,7 @@
             <h5 class="caption">Goldsmith</h5>
             <p>Goldsmiths bend metals and gems into fashionable accessories and bejewelled weaponry. Many classes desire their fineries, such as rings, bracelets, necklaces, chakrams(dancer), nouliths(sage) and crystal mediums(red mage).</p>
             <h5 class="caption">Leatherworker</h5>
-            <p>Leatherworkers prepare hides, pelts and furs from Eorzea's most notorious monsters into leather-based medium armor and accessories.</p>
+            <p>Leatherworkers prepare hides, pelts and furs from Eorzea’s most notorious monsters into leather-based medium armor and accessories.</p>
             <h5 class="caption">Weaver</h5>
             <p>Weavers convert fabrics and fibres into comfortably light armor and accessories, such as robes, ribbons, shirts and pantaloons.</p>
         </description>
@@ -136,7 +136,7 @@
     <element name="Leatherworker" type="Class Feature" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_FEATURE_CRAFTING_LEATHERWORKER">
         <supports>Crafting, Gunbreaker</supports>
         <description>
-            <p>Leatherworkers prepare hides, pelts and furs from Eorzea's most notorious monsters into leather-based medium armor and accessories.</p>
+            <p>Leatherworkers prepare hides, pelts and furs from Eorzea’s most notorious monsters into leather-based medium armor and accessories.</p>
         </description>
         <sheet>
             <description usage="{{leatherworker:level}}">Craft items with a +{{leatherworker:modifier}} from the {{leatherworker:level}} Crafting Log. Elemental Crafting: {{leatherworker:aspect}}. Materia: {{leatherworker:materia}}. Desynthesis: {{leatherworker:desynthesis}}. Extract Materia: {{leatherworker:extract}}</description>

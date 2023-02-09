@@ -4,7 +4,7 @@
 		<name>Final Fantasy XIV</name>
 		<description>The content from the FFXIV DND Compendium.</description>
 		<author url="https://www.reddit.com/user/SilentSoren/">Silent Soren</author>
-		<update version="1.0.0">
+		<update version="1.0.1">
 			<file name="ffxiv.index" url="https://raw.githubusercontent.com/brentonmaas/ffxiv_aurorabuilder/master/ffxiv.index" />
 		</update>
 	</info>

@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Gunbreaker</name>
-        <update version="1.0.2">
+        <update version="1.0.3">
             <file name="class-gunbreaker.xml" url="https://raw.githubusercontent.com/brentonmaas/ffxiv_aurorabuilder/master/ffxiv/compendium/classes/class-gunbreaker.xml" />
         </update>
     </info>
@@ -150,7 +150,7 @@
     </element>
     <element name="Munitions" type="Class Feature" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_FEATURE_MUNITIONS">
         <description>
-            <p>Beginning at 1st level, you've learned how to create cells which draw in magical energy from your body to charge themselves called Munitions. You have a number of munition charges your body can support, indicated on the class table above. You load up to 6 Munitions charges into your gunblade at a time. When you use Munition charges on attack rolls you expend a loaded charge. You may load more charges as an action.</p>
+            <p>Beginning at 1st level, you’ve learned how to create cells which draw in magical energy from your body to charge themselves called Munitions. You have a number of munition charges your body can support, indicated on the class table above. You load up to 6 Munitions charges into your gunblade at a time. When you use Munition charges on attack rolls you expend a loaded charge. You may load more charges as an action.</p>
             <p class="indent">When using abilities triggered through using your Munitions that require the enemy to make a saving throw, the saving throw is calculated as follows:</p>
             <p class="indent"><b><em>Gunbreaker Save DC</em></b> = 8 + your proficiency modifier + your Strength modifier.</p>
             <p class="indent">When using features which require you to make a ranged attack, your attack modifier is calculated as follows:</p>
@@ -176,11 +176,11 @@
     </element>
     <element name="Burst Strike" type="Class Feature" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_FEATURE_BURSTSTRIKE">
         <description>
-            <p>When you make a successful melee weapon attack with a Gunblade, you may expend 1 Munitions charge to pull your weapon's trigger and attempt to launch your enemy backwards. The creature makes a Constitution saving throw against your Gunbreaker Save DC. On a failure they take 1d10 thunder damage and are knocked back 10ft. from your position. They are not knocked back on a success.</p>
+            <p>When you make a successful melee weapon attack with a Gunblade, you may expend 1 Munitions charge to pull your weapon’s trigger and attempt to launch your enemy backwards. The creature makes a Constitution saving throw against your Gunbreaker Save DC. On a failure they take 1d10 thunder damage and are knocked back 10ft. from your position. They are not knocked back on a success.</p>
             <p class="indent">This damage increases to 2d10 at the 6th level, 3d10 at the 12th level and 4d10 at the 18th level.</p>
         </description>
         <sheet usage="Munitions">
-            <description>Expend 1 Munitions charge to pull your weapon's trigger and attempt to launch your enemy backwards. The creature makes a Constitution saving throw against your Gunbreaker Save DC ({{munitions:dc}}). On a failure they take {{burst-strike:dice count}}d{{burst-strike:dice size}} thunder damage and are knocked back 10ft from your position. They are not knocked back on a success.</description>
+            <description>Expend 1 Munitions charge to pull your weapon’s trigger and attempt to launch your enemy backwards. The creature makes a Constitution saving throw against your Gunbreaker Save DC ({{munitions:dc}}). On a failure they take {{burst-strike:dice count}}d{{burst-strike:dice size}} thunder damage and are knocked back 10ft from your position. They are not knocked back on a success.</description>
         </sheet>
         <rules>
             <stat name="burst-strike:dice size" value="10" bonus="dice"/>
@@ -241,7 +241,7 @@
     </element>
     <element name="Gunbreaker Archetype" type="Class Feature" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_FEATURE_GUNBREAKERARCHETYPE">
         <description>
-            <p>At 3rd level, you select select your Gunbreaker style. The Breaker style focuses on weakening foes with special Munitions, the Lionhart style which focuses on enhancing the damage dealt with the weapon's blows and the Revolver style which focuses on ranged combat.</p>
+            <p>At 3rd level, you select select your Gunbreaker style. The Breaker style focuses on weakening foes with special Munitions, the Lionhart style which focuses on enhancing the damage dealt with the weapon’s blows and the Revolver style which focuses on ranged combat.</p>
         </description>
         <sheet display="false" />
         <rules>
@@ -251,7 +251,7 @@
     <element name="Ability Score Improvement" type="Class Feature" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_GUNBREAKER">
         <compendium display="false" />
         <description>
-            <p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p>
+            <p>When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can’t increase an ability score above 20 using this feature.</p>
         </description>
         <sheet display="false" />
         <rules>
@@ -383,7 +383,7 @@
     <element name="Lionhart Style" type="Archetype" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_ARCHETYPE_LIONHART">
         <supports>Gunbreaker Archetype</supports>
         <description>
-            <p>Practitioners of the Lionhart Style have learned to elementally tune their Munitions, allowing them to pierce enemy's guard with elemental energies and dealing out heavy damage.</p>
+            <p>Practitioners of the Lionhart Style have learned to elementally tune their Munitions, allowing them to pierce enemy’s guard with elemental energies and dealing out heavy damage.</p>
             <div element="ID_FFXIV_ARCHETYPE_FEATURE_ELEMENTALSLASH"/>
             <div element="ID_FFXIV_ARCHETYPE_FEATURE_ROUGHDIVIDE"/>
             <div element="ID_FFXIV_ARCHETYPE_FEATURE_FATEDCIRCLE"/>
@@ -391,7 +391,7 @@
             <div element="ID_FFXIV_ARCHETYPE_FEATURE_RENZOKUKEN"/>
         </description>
         <sheet display="false">
-            <description>Practitioners of the Lionhart Style have learned to elementally tune their Munitions, allowing them to pierce enemy's guard with elemental energies and dealing out heavy damage.</description>
+            <description>Practitioners of the Lionhart Style have learned to elementally tune their Munitions, allowing them to pierce enemy’s guard with elemental energies and dealing out heavy damage.</description>
         </sheet>
         <rules>
             <grant type="Archetype Feature" id="ID_FFXIV_ARCHETYPE_FEATURE_ELEMENTALSLASH" level="3" />
