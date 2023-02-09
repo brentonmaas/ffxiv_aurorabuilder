@@ -4,7 +4,7 @@
         <name>Final Fantasy XIV DND Compendium</name>
         <description>A Companion Guidebook for use alongside the Dungeons and Dragons 5th Edition Player's Handbook to bring Final Fantasy XIV to your table.</description>
         <author url="https://www.reddit.com/user/SilentSoren/">Silent Soren</author>
-        <update version="1.2.3">
+        <update version="1.2.4">
             <file name="compendium.index" url="https://raw.githubusercontent.com/brentonmaas/ffxiv_aurorabuilder/master/ffxiv/compendium.index" />
         </update>
     </info>
@@ -16,7 +16,6 @@
         <file name="race-aura.xml" url="https://raw.githubusercontent.com/brentonmaas/ffxiv_aurorabuilder/master/ffxiv/compendium/races/race-aura.xml" />
         <file name="race-miqote.xml" url="https://raw.githubusercontent.com/brentonmaas/ffxiv_aurorabuilder/master/ffxiv/compendium/races/race-miqote.xml" />
 
-        <file name="class-gunbreaker.xml" url="https://raw.githubusercontent.com/brentonmaas/ffxiv_aurorabuilder/master/ffxiv/compendium/classes/class-gunbreaker.xml" />
 
         <file name="items-tools.xml" url="https://raw.githubusercontent.com/brentonmaas/ffxiv_aurorabuilder/master/ffxiv/compendium/items/items-tools.xml" />
         <file name="items-gunblade.xml" url="https://raw.githubusercontent.com/brentonmaas/ffxiv_aurorabuilder/master/ffxiv/compendium/items/items-gunblade.xml" />
