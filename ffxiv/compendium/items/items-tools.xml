@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <element name="Alchemist's Tools" type="Item" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_ITEM_TOOL_ALCHEMISTS_TOOLS">
+        <description>
+            <p>Alchemist’s tools enable the user transform materials into potions and elixirs. Alchemists can create consumables such as potions, ethers, elixirs, stat buffs, status cures and status inducers. They can also make wands for Conjurers, grimoires for Arcanists and Summoners, arms for Scholars.</p>
+            <p class="indent"><strong><em>Tools.</em></strong> Alchemists utilize alembics as their primary tool and mortars as their secondary tool.</p>
+            <p class="indent"><strong><em>Guild.</em></strong> The Alchemists' Guild is located in Ul'dah. Speak with the receptionist to start the first quest.</p>
+            <h5>ALCHEMIST’S SUPPLIES</h5>
+            <table>
+                <thead>
+                    <tr><td>Activity</td><td class="col-10">DC</td></tr>
+                </thead>
+                <tr><td>Create a puff of thick smoke</td><td>10</td></tr>
+                <tr><td>Identify a poison</td><td>10</td></tr>
+                <tr><td>Identify a substance</td><td>15</td></tr>
+                <tr><td>Start a fire</td><td>15</td></tr>
+                <tr><td>Neutralize acid</td><td>20</td></tr>
+            </table>
+        </description>
+        <setters>
+            <set name="category">Tools</set>
+            <set name="cost" currency="gp">50</set>
+            <set name="weight" lb="8">8 lbs.</set>
+            <set name="type">Tool</set>
+            <set name="proficiency">ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_ALCHEMISTS_TOOLS</set>
+        </setters>
+    </element>
+    <element name="Armorer's Tools" type="Item" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_ITEM_TOOL_ARMORERS_TOOLS">
+        <description>
+            <p>Smith’s tools allow you to work with metals to create equipable armor for multiple classes. They can make heavy shields for Paladins, and much more.</p>
+            <p class="indent"><strong><em>Tools.</em></strong> Armorers utilize hammers as their primary tools and pliers as their secondary tool.</p>
+            <p class="indent"><strong><em>Guild.</em></strong> The Armorer's Guild is located in Limsa Lominsa. Speak with the receptionist to start the first quest.</p>
+            <h5>ARMORER’S TOOLS</h5>
+            <table>
+                <thead>
+                    <tr><td>Activity</td><td class="col-10">DC</td></tr>
+                </thead>
+                <tr><td>Repair a suit of armor</td><td>10</td></tr>
+                <tr><td>Create basic metal object (spikes, rods, spade etc...)</td><td>15</td></tr>
+                <tr><td>Create an armored metal cover object</td><td>15</td></tr>
+                <tr><td>Determine a metal object's history</td><td>20</td></tr>
+            </table>
+        </description>
+        <setters>
+            <set name="category">Tools</set>
+            <set name="cost" currency="gp">20</set>
+            <set name="weight" lb="8">8 lbs.</set>
+            <set name="type">Tool</set>
+            <set name="proficiency">ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_ARMORERS_TOOLS</set>
+        </setters>
+    </element>
+    <element name="Blacksmith’s Tools" type="Item" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_ITEM_TOOL_BLACKSMITHS_TOOLS">
+        <description>
+            <p>Blacksmith’s tools allows the refining of metals and the production of main-hand and off-hand equipment for multiple classes. Blacksmiths can create swords Paladins, two-handed axes for Warriors, and much more. </p>
+            <p class="indent"><strong><em>Tools.</em></strong> Blacksmiths utilize various hammers as their primary tool and files as their secondary tool.</p>
+            <p class="indent"><strong><em>Guild.</em></strong> The Blacksmith's Guild is located in Limsa Lominsa. Speak with the receptionist to start the first quest.</p>
+            <h5>BLACKSMITH’S TOOLS</h5>
+            <table>
+                <thead>
+                    <tr><td>Activity</td><td class="col-10">DC</td></tr>
+                </thead>
+                <tr><td>Sharpen a dull blade</td><td>10</td></tr>
+                <tr><td>Create basic metal object (spikes, rods, spade etc...)</td><td>15</td></tr>
+                <tr><td>Determine a metal object's history</td><td>20</td></tr>
+            </table>
+        </description>
+        <setters>
+            <set name="category">Tools</set>
+            <set name="cost" currency="gp">20</set>
+            <set name="weight" lb="8">8 lbs.</set>
+            <set name="type">Tool</set>
+            <set name="proficiency">ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_BLACKSMITHS_TOOLS</set>
+        </setters>
+    </element>
+    <element name="Carpenter’s Tools" type="Item" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_ITEM_TOOL_CARPENTERS_TOOLS">
+        <description>
+            <p>Carpenter’s Tools enables the production of wooden materials, furniture and equipment used by many classes. They can create wooden shields and masks for casters, weapons and armor.</p>
+            <p class="indent"><strong><em>Tools.</em></strong> Carpenters utilize saws as their primary tool and claw hammers as their secondary tool.</p>
+            <p class="indent"><strong><em>Guild.</em></strong> The Carpenter's Guild is located in Gridania. Speak with the receptionist to start the first quest.</p>
+            <h5>CARPENTER’S TOOLS</h5>
+            <table>
+                <thead>
+                    <tr><td>Activity</td><td class="col-10">DC</td></tr>
+                </thead>
+                <tr><td>Build a simple wooden structure</td><td>10</td></tr>
+                <tr><td>Design a complex wooden structure</td><td>15</td></tr>
+                <tr><td>Find a weak point in a wooden wall</td><td>15</td></tr>
+                <tr><td>Pry apart a door</td><td>20</td></tr>
+            </table>
+        </description>
+        <setters>
+            <set name="category">Tools</set>
+            <set name="cost" currency="gp">20</set>
+            <set name="weight" lb="6">6 lbs.</set>
+            <set name="type">Tool</set>
+            <set name="proficiency">ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_CARPENTERS_TOOLS</set>
+        </setters>
+    </element>
+    <element name="Culinarian’s Tools" type="Item" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_ITEM_TOOL_CULINARIANS_TOOLS">
+        <description>
+            <p>Culinarian’s Tools utilizes animal products, fish and vegetables to create hearty meals that provide temporary buffs on consumption. Unlike other crafters, Culinarians are incapable of repairing equipment or melding materia however they more than make up for this with unique food consumption effects.</p>
+            <p class="indent"><strong><em>Tools.</em></strong> Culinarians utilize skillets and frypans as their primary tool and culinary knives as their secondary tool.</p>
+            <p class="indent"><strong><em>Guild.</em></strong> The Culinarian's Guild is located in Limsa Lominsa. Speak with the receptionist to start the first quest.</p>
+            <h5>CULINARIAN’S TOOLS</h5>
+            <table>
+                <thead>
+                    <tr><td>Activity</td><td class="col-10">DC</td></tr>
+                </thead>
+                <tr><td>Create a typical meal</td><td>10</td></tr>
+                <tr><td>Duplicate a meal</td><td>10</td></tr>
+                <tr><td>Spot poison or impurities in food</td><td>15</td></tr>
+                <tr><td>Create a gourmet meal</td><td>15</td></tr>
+            </table>
+        </description>
+        <setters>
+            <set name="category">Tools</set>
+            <set name="cost" currency="gp">20</set>
+            <set name="weight" lb="8">6 lbs.</set>
+            <set name="type">Tool</set>
+            <set name="proficiency">ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_CULINARIANS_TOOLS</set>
+        </setters>
+    </element>
+    <element name="Goldsmith’s Tools" type="Item" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_ITEM_TOOL_GOLDSMITHS_TOOLS">
+        <description>
+            <p>Goldsmith’s Tools uses metals and gems to create accessories such as rings, earrings and necklaces for every class. They are also capable of crafting various weapons and equipment.</p>
+            <p class="indent"><strong><em>Tools.</em></strong> Goldsmiths utilize various hammers as their primary tool and grinding wheels as their secondary tool.</p>
+            <p class="indent"><strong><em>Guild.</em></strong> The Goldsmith's Guild is located in Ul'dah. Speak with the receptionist to start the first quest.</p>
+            <h5>GOLDSMITH’S TOOLS</h5>
+            <table>
+                <thead>
+                    <tr><td>Activity</td><td class="col-10">DC</td></tr>
+                </thead>
+                <tr><td>Create non-magic jewelry</td><td>10</td></tr>
+                <tr><td>Repair small mechanical devices and jewelry</td><td>15</td></tr>
+                <tr><td>Determine a gem's history</td><td>20</td></tr>
+            </table>
+        </description>
+        <setters>
+            <set name="category">Tools</set>
+            <set name="cost" currency="gp">20</set>
+            <set name="weight" lb="2">8 lbs.</set>
+            <set name="type">Tool</set>
+            <set name="proficiency">ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_GOLDSMITHS_TOOLS</set>
+        </setters>
+    </element>
+    <element name="Leatherworker’s Tools" type="Item" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_ITEM_TOOL_LEATHERWORKERS_TOOLS">
+        <description>
+            <p>Leatherworker’s Tools use hides, furs and pelts to create leather armor for multiple classes. They are also capable of crafting leather-based accessories, weapons for Monks, furniture, and many other items. </p>
+            <p class="indent"><strong><em>Tools.</em></strong> Leatherworkers utilize round knives as their primary tool and awls as their secondary tool.</p>
+            <p class="indent"><strong><em>Guild.</em></strong> The Leatherworker's Guild is located in Gridania. Speak with the receptionist to start the first quest. </p>
+            <h5>LEATHERWORKER’S TOOLS</h5>
+            <table>
+                <thead>
+                    <tr><td>Activity</td><td class="col-10">DC</td></tr>
+                </thead>
+                <tr><td>Modify a leather item’s appearance</td><td>10</td></tr>
+                <tr><td>Repair leather armor and arms</td><td>15</td></tr>
+                <tr><td>Determine a leather item’s history</td><td>20</td></tr>
+            </table>
+        </description>
+        <setters>
+            <set name="category">Tools</set>
+            <set name="cost" currency="gp">20</set>
+            <set name="weight" lb="2">6 lbs.</set>
+            <set name="type">Tool</set>
+            <set name="proficiency">ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_LEATHERWORKERS_TOOLS</set>
+        </setters>
+    </element>
+    <element name="Weaver’s Tools" type="Item" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_ITEM_TOOL_WEAVERS_TOOLS">
+        <description>
+            <p>Weaver’s Tools use convert fabrics and fibres into comfortably light armors and accessories that are wearable by multiple classes. They can craft robes, ribbons, shirts, pantaloons and many other useful items</p>
+            <p class="indent"><strong><em>Tools.</em></strong> Weavers utilize needles as their primary tool and spinning wheels as their secondary tool.</p>
+            <p class="indent"><strong><em>Guild.</em></strong> The Weaver's Guild is located in Ul'dah. Speak with the receptionist to start the first quest.</p>
+            <h5>WEAVERS’S TOOLS</h5>
+            <table>
+                <thead>
+                    <tr><td>Activity</td><td class="col-10">DC</td></tr>
+                </thead>
+                <tr><td>Repurpose cloth</td><td>10</td></tr>
+                <tr><td>Mend cloth armor</td><td>15</td></tr>
+                <tr><td>Tailor an outfit</td><td>15</td></tr>
+                <tr><td>Determine a cloth item’s history</td><td>20</td></tr>
+            </table>
+        </description>
+        <setters>
+            <set name="category">Tools</set>
+            <set name="cost" currency="gp">20</set>
+            <set name="weight" lb="2">6 lbs.</set>
+            <set name="type">Tool</set>
+            <set name="proficiency">ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_WEAVERS_TOOLS</set>
+        </setters>
+    </element>
+</elements>
