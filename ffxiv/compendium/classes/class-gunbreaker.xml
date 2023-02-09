@@ -121,16 +121,16 @@
             <grant type="Class Feature" id="ID_FFXIV_CLASS_FEATURE_MUNITIONS" level="1"/>
             <grant type="Class Feature" id="ID_FFXIV_CLASS_FEATURE_BURSTSTRIKE" level="1"/>
             <grant type="Class Feature" id="ID_FFXIV_CLASS_FEATURE_TAUNT" level="1"/>
-            <grant type="Class Feature" id="ID_FFXIV_CLASS_FEATURE_JOURNEYMANCRAFTING" level="1"/>
+            <grant type="Class Feature" id="ID_FFXIV_CLASS_FEATURE_NOVICEMCRAFTING" level="1"/>
             <grant type="Class Feature" id="ID_FFXIV_CLASS_FEATURE_FIGHTINGSTYLE" level="2"/>
             <grant type="Class Feature" id="ID_FFXIV_CLASS_FEATURE_GUNNERSHOT" level="2"/>
             <grant type="Class Feature" id="ID_FFXIV_CLASS_FEATURE_GUNBREAKERARCHETYPE" level="3"/>
             <grant type="Class Feature" id="ID_FFXIV_CLASS_FEATURE_ABILITYSCOREIMPROVEMENT_GUNBREAKER" level="4"/>
-            <grant type="Class Feature" id="ID_FFXIV_CLASS_FEATURE_ADVANCEDCRAFTING" level="4"/>
+            <grant type="Class Feature" id="ID_FFXIV_CLASS_FEATURE_JOURNEYMANCRAFTING" level="4"/>
             <grant type="Class Feature" id="ID_WOTC_PHB_CLASS_FEATURE_EXTRAATTACK" level="5"/>
             <grant type="Class Feature" id="ID_FFXIV_CLASS_FEATURE_QUICKHAND" level="7"/>
             <grant type="Class Feature" id="ID_FFXIV_CLASS_FEATURE_DIPLOMATICENFORCER" level="9"/>
-            <grant type="Class Feature" id="ID_FFXIV_CLASS_FEATURE_NOVICECRAFTING" level="9"/>
+            <grant type="Class Feature" id="ID_FFXIV_CLASS_FEATURE_ADVANCEDCRAFTING" level="8"/>
             <grant type="Class Feature" id="ID_FFXIV_CLASS_FEATURE_BLASTINGZONE" level="11"/>
             <grant type="Class Feature" id="ID_FFXIV_CLASS_FEATURE_MASTERCRAFTING" level="12"/>
             <grant type="Class Feature" id="ID_FFXIV_CLASS_FEATURE_HEARTOFTHEVANGUARD" level="13"/>
@@ -138,7 +138,6 @@
             <grant type="Class Feature" id="ID_FFXIV_CLASS_FEATURE_GRANDMASTERCRAFTING" level="16"/>
             <grant type="Class Feature" id="ID_FFXIV_CLASS_FEATURE_SONICBREAKER" level="17"/>
             <grant type="Class Feature" id="ID_FFXIV_CLASS_FEATURE_BLOODFEST" level="18"/>
-            <grant type="Class Feature" id="ID_FFXIV_CLASS_FEATURE_JOURNEYMANCRAFTING" level="8"/>
         </rules>
     </element>
     <element name="Gunblade Smith" type="Class Feature" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_FEATURE_GUNBLADESMITH">
