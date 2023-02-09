@@ -415,7 +415,7 @@
             <stat name="elemental-slash:dice count" value="2" level="6"/>
             <stat name="elemental-slash:dice count" value="3" level="12"/>
             <stat name="elemental-slash:dice count" value="4" level="18"/>
-            <stat name="elemental-slash:damage type" value="(Fire, Cold, Lightning or Thunder)" level="3"/>
+            <stat name="elemental-slash:damage type" value="(Fire, Cold, Lightning or Thunder)" inline="true" level="3"/>
             <stat name="elemental-slash:damage" value="0" level="3" />
         </rules>
     </element>
@@ -440,7 +440,7 @@
             <stat name="fated-circle:dice count" value="3" level="10"/>
             <stat name="fated-circle:dice count" value="4" level="15"/>
             <stat name="fated-circle:dice count" value="5" level="20"/>
-            <stat name="fated-circle:damage type" value="(Fire, Cold, Lightning or Thunder)" level="10"/>
+            <stat name="fated-circle:damage type" value="(Fire, Cold, Lightning or Thunder)" inline="true" level="10"/>
         </rules>
     </element>
     <element name="Elemental Intensity" type="Archetype Feature" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_ARCHETYPE_FEATURE_ELEMENTALINTENSITY">
@@ -452,9 +452,9 @@
         </sheet>
         <rules>
             <stat name="elemental-slash:damage" value="intelligence:modifier" level="14" />
-            <stat name="elemental-slash:damage type" value="(Fire, Cold, Lightning, Thunder, Force, Necrotic or Radiant)" level="14"/>
+            <stat name="elemental-slash:damage type" value="(Fire, Cold, Lightning, Thunder, Force, Necrotic or Radiant)" inline="true" level="14"/>
             <stat name="fated-circle:damage" value="intelligence:modifier" level="14" />
-            <stat name="fated-circle:damage type" value="(Fire, Cold, Lightning, Thunder, Force, Necrotic or Radiant)" level="14"/>
+            <stat name="fated-circle:damage type" value="(Fire, Cold, Lightning, Thunder, Force, Necrotic or Radiant)" inline="true" level="14"/>
         </rules>
     </element>
     <element name="Survivor" type="Archetype Feature" source="Player’s Handbook" id="ID_WOTC_PHB_ARCHETYPE_FEATURE_SURVIVOR">
