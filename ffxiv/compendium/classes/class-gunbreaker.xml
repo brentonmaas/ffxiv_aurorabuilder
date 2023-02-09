@@ -112,8 +112,9 @@
             <grant type="Proficiency" id="ID_PROFICIENCY_ARMOR_PROFICIENCY_SHIELDS" />
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_SIMPLE_WEAPONS" />
             <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_MARTIAL_WEAPONS" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_GUNBLADE" />
-            <grant type="Proficiency" id="ID_PROFICIENCY_WEAPON_PROFICIENCY_FIREARMS" />
+            <grant type="Proficiency" id="ID_FFXIV_PROFICIENCY_WEAPON_PROFICIENCY_GUNBLADE" />
+            <grant type="Proficiency" id="ID_WOTC_DMG_PROFICIENCY_WEAPON_FIREARMS" />
+            <grant type="Proficiency" id="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_BLACKSMITHS_TOOLS" />
             <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_STRENGTH" />
             <grant type="Proficiency" id="ID_PROFICIENCY_SAVINGTHROW_DEXTERITY" />
             <grant type="Class Feature" id="ID_FFXIV_CLASS_FEATURE_GUNBLADESMITH" level="1"/>

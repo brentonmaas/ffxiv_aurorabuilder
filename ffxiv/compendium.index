@@ -19,5 +19,6 @@
         <file name="class-gunbreaker.xml" url="https://raw.githubusercontent.com/brentonmaas/ffxiv_aurorabuilder/master/ffxiv/compendium/classes/class-gunbreaker.xml" />
 
         <file name="items-tools.xml" url="https://raw.githubusercontent.com/brentonmaas/ffxiv_aurorabuilder/master/ffxiv/compendium/items/items-tools.xml" />
+        <file name="items-gunblade.xml" url="https://raw.githubusercontent.com/brentonmaas/ffxiv_aurorabuilder/master/ffxiv/compendium/items/items-gunblade.xml" />
     </files>
 </index>

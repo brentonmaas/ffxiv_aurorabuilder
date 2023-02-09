@@ -27,16 +27,18 @@
         </setters>
     </element>
     <element name="Alchemist's Tools Proficiency" type="Proficiency" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_ALCHEMISTS_TOOLS">
+        <supports>ID_FFXIV_CLASS_ITEM_TOOL_ALCHEMISTS_TOOLS</supports>
         <description>
             <p>Become proficient with Alchemist's tools</p>
         </description>
-        <sheet display="false" />
+        <sheet alt="Alchemist’s tools" />
     </element>
     <element name="Alchemist's Tools Expertise" type="Proficiency" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_ALCHEMISTS_TOOLS">
+        <supports>ID_FFXIV_CLASS_ITEM_TOOL_ALCHEMISTS_TOOLS</supports>
         <description>
             <p>Become an expert with Alchemist's tools</p>
         </description>
-        <sheet display="false" />
+        <sheet alt="Alchemist’s tools" />
     </element>
     <element name="Armorer's Tools" type="Item" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_ITEM_TOOL_ARMORERS_TOOLS">
         <description>
@@ -63,16 +65,18 @@
         </setters>
     </element>
     <element name="Armorer's Tools Proficiency" type="Proficiency" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_ARMORERS_TOOLS">
+        <supports>ID_FFXIV_CLASS_ITEM_TOOL_ARMORERS_TOOLS</supports>
         <description>
             <p>Become proficient with Armorer's tools</p>
         </description>
-        <sheet display="false" />
+        <sheet alt="Armorer’s tools" />
     </element>
     <element name="Armorer's Tools Expertise" type="Proficiency" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_ARMORERS_TOOLS">
+        <supports>ID_FFXIV_CLASS_ITEM_TOOL_ARMORERS_TOOLS</supports>
         <description>
             <p>Become an expert with Armorer's tools</p>
         </description>
-        <sheet display="false" />
+        <sheet alt="Armorer’s tools" />
     </element>
     <element name="Blacksmith’s Tools" type="Item" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_ITEM_TOOL_BLACKSMITHS_TOOLS">
         <description>
@@ -98,16 +102,18 @@
         </setters>
     </element>
     <element name="Blacksmith’s Tools Proficiency" type="Proficiency" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_BLACKSMITHS_TOOLS">
+        <supports>ID_FFXIV_CLASS_ITEM_TOOL_BLACKSMITHS_TOOLS</supports>
         <description>
             <p>Become proficient with Blacksmith’s tools</p>
         </description>
-        <sheet display="false" />
+        <sheet alt="Blacksmith’s tools" />
     </element>
     <element name="Blacksmith’s Tools Expertise" type="Proficiency" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_BLACKSMITHS_TOOLS">
+        <supports>ID_FFXIV_CLASS_ITEM_TOOL_BLACKSMITHS_TOOLS</supports>
         <description>
             <p>Become an expert with Blacksmith’s tools</p>
         </description>
-        <sheet display="false" />
+        <sheet alt="Blacksmith’s tools" />
     </element>
     <element name="Carpenter’s Tools" type="Item" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_ITEM_TOOL_CARPENTERS_TOOLS">
         <description>
@@ -134,16 +140,18 @@
         </setters>
     </element>
     <element name="Carpenter’s Tools Proficiency" type="Proficiency" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_CARPENTERS_TOOLS">
+        <supports>ID_FFXIV_CLASS_ITEM_TOOL_CARPENTERS_TOOLS</supports>
         <description>
             <p>Become proficient with Carpenter’s tools</p>
         </description>
-        <sheet display="false" />
+        <sheet alt="Carpenter’s tools" />
     </element>
     <element name="Carpenter’s Tools Expertise" type="Proficiency" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_CARPENTERS_TOOLS">
+        <supports>ID_FFXIV_CLASS_ITEM_TOOL_CARPENTERS_TOOLS</supports>
         <description>
             <p>Become an expert with Carpenter’s tools</p>
         </description>
-        <sheet display="false" />
+        <sheet alt="Carpenter’s tools" />
     </element>
     <element name="Culinarian’s Tools" type="Item" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_ITEM_TOOL_CULINARIANS_TOOLS">
         <description>
@@ -170,16 +178,18 @@
         </setters>
     </element>
     <element name="Culinarian’s Tools Proficiency" type="Proficiency" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_CULINARIANS_TOOLS">
+        <supports>ID_FFXIV_CLASS_ITEM_TOOL_CULINARIANS_TOOLS</supports>
         <description>
             <p>Become proficient with Culinarian’s tools</p>
         </description>
-        <sheet display="false" />
+        <sheet alt="Culinarian’s tools" />
     </element>
     <element name="Culinarian’s Tools Expertise" type="Proficiency" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_CULINARIANS_TOOLS">
+        <supports>ID_FFXIV_CLASS_ITEM_TOOL_CULINARIANS_TOOLS</supports>
         <description>
             <p>Become an expert with Culinarian’s tools</p>
         </description>
-        <sheet display="false" />
+        <sheet alt="Culinarian’s tools" />
     </element>
     <element name="Goldsmith’s Tools" type="Item" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_ITEM_TOOL_GOLDSMITHS_TOOLS">
         <description>
@@ -205,16 +215,18 @@
         </setters>
     </element>
     <element name="Goldsmith’s Tools Proficiency" type="Proficiency" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_GOLDSMITHS_TOOLS">
+        <supports>ID_FFXIV_CLASS_ITEM_TOOL_GOLDSMITHS_TOOLS</supports>
         <description>
             <p>Become proficient with Goldsmith’s tools</p>
         </description>
-        <sheet display="false" />
+        <sheet alt="Goldsmith’s tools" />
     </element>
     <element name="Goldsmith’s Tools Expertise" type="Proficiency" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_GOLDSMITHS_TOOLS">
+        <supports>ID_FFXIV_CLASS_ITEM_TOOL_GOLDSMITHS_TOOLS</supports>
         <description>
             <p>Become an expert with Goldsmith’s tools</p>
         </description>
-        <sheet display="false" />
+        <sheet alt="Goldsmith’s tools" />
     </element>
     <element name="Leatherworker’s Tools" type="Item" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_ITEM_TOOL_LEATHERWORKERS_TOOLS">
         <description>
@@ -240,16 +252,18 @@
         </setters>
     </element>
     <element name="Leatherworker’s Tools Proficiency" type="Proficiency" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_LEATHERWORKERS_TOOLS">
+        <supports>ID_FFXIV_CLASS_ITEM_TOOL_LEATHERWORKERS_TOOLS</supports>
         <description>
             <p>Become proficient with Leatherworker’s tools</p>
         </description>
-        <sheet display="false" />
+        <sheet alt="Leatherworker’s tools" />
     </element>
     <element name="Leatherworker’s Tools Expertise" type="Proficiency" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_LEATHERWORKERS_TOOLS">
+        <supports>ID_FFXIV_CLASS_ITEM_TOOL_LEATHERWORKERS_TOOLS</supports>
         <description>
             <p>Become an expert with Leatherworker’s tools</p>
         </description>
-        <sheet display="false" />
+        <sheet alt="Leatherworker’s tools" />
     </element>
     <element name="Weaver’s Tools" type="Item" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_ITEM_TOOL_WEAVERS_TOOLS">
         <description>
@@ -276,15 +290,17 @@
         </setters>
     </element>
     <element name="Weaver’s Tools Proficiency" type="Proficiency" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_WEAVERS_TOOLS">
+        <supports>ID_FFXIV_CLASS_ITEM_TOOL_WEAVERS_TOOLS</supports>
         <description>
             <p>Become proficient with Weaver’s tools</p>
         </description>
-        <sheet display="false" />
+        <sheet alt="Weaver’s tools" />
     </element>
     <element name="Weaver’s Tools Expertise" type="Proficiency" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_WEAVERS_TOOLS">
+        <supports>ID_FFXIV_CLASS_ITEM_TOOL_WEAVERS_TOOLS</supports>
         <description>
             <p>Become an expert with Weaver’s tools</p>
         </description>
-        <sheet display="false" />
+        <sheet alt="Weaver’s tools" />
     </element>
 </elements>
