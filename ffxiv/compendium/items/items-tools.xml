@@ -16,6 +16,7 @@
                 <tr><td>Start a fire</td><td>15</td></tr>
                 <tr><td>Neutralize acid</td><td>20</td></tr>
             </table>
+            <div element="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_ALCHEMISTS_TOOLS" />
         </description>
         <setters>
             <set name="category">Tools</set>
@@ -24,6 +25,18 @@
             <set name="type">Tool</set>
             <set name="proficiency">ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_ALCHEMISTS_TOOLS</set>
         </setters>
+    </element>
+    <element name="Alchemist's Tools Proficiency" type="Proficiency" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_ALCHEMISTS_TOOLS">
+        <description>
+            <p>Become proficient with Alchemist's tools</p>
+        </description>
+        <sheet display="false" />
+    </element>
+    <element name="Alchemist's Tools Expertise" type="Proficiency" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_ALCHEMISTS_TOOLS">
+        <description>
+            <p>Become an expert with Alchemist's tools</p>
+        </description>
+        <sheet display="false" />
     </element>
     <element name="Armorer's Tools" type="Item" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_ITEM_TOOL_ARMORERS_TOOLS">
         <description>
@@ -49,6 +62,18 @@
             <set name="proficiency">ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_ARMORERS_TOOLS</set>
         </setters>
     </element>
+    <element name="Armorer's Tools Proficiency" type="Proficiency" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_ARMORERS_TOOLS">
+        <description>
+            <p>Become proficient with Armorer's tools</p>
+        </description>
+        <sheet display="false" />
+    </element>
+    <element name="Armorer's Tools Expertise" type="Proficiency" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_ARMORERS_TOOLS">
+        <description>
+            <p>Become an expert with Armorer's tools</p>
+        </description>
+        <sheet display="false" />
+    </element>
     <element name="Blacksmith’s Tools" type="Item" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_ITEM_TOOL_BLACKSMITHS_TOOLS">
         <description>
             <p>Blacksmith’s tools allows the refining of metals and the production of main-hand and off-hand equipment for multiple classes. Blacksmiths can create swords Paladins, two-handed axes for Warriors, and much more. </p>
@@ -71,6 +96,18 @@
             <set name="type">Tool</set>
             <set name="proficiency">ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_BLACKSMITHS_TOOLS</set>
         </setters>
+    </element>
+    <element name="Blacksmith’s Tools Proficiency" type="Proficiency" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_BLACKSMITHS_TOOLS">
+        <description>
+            <p>Become proficient with Blacksmith’s tools</p>
+        </description>
+        <sheet display="false" />
+    </element>
+    <element name="Blacksmith’s Tools Expertise" type="Proficiency" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_BLACKSMITHS_TOOLS">
+        <description>
+            <p>Become an expert with Blacksmith’s tools</p>
+        </description>
+        <sheet display="false" />
     </element>
     <element name="Carpenter’s Tools" type="Item" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_ITEM_TOOL_CARPENTERS_TOOLS">
         <description>
@@ -96,6 +133,18 @@
             <set name="proficiency">ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_CARPENTERS_TOOLS</set>
         </setters>
     </element>
+    <element name="Carpenter’s Tools Proficiency" type="Proficiency" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_CARPENTERS_TOOLS">
+        <description>
+            <p>Become proficient with Carpenter’s tools</p>
+        </description>
+        <sheet display="false" />
+    </element>
+    <element name="Carpenter’s Tools Expertise" type="Proficiency" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_CARPENTERS_TOOLS">
+        <description>
+            <p>Become an expert with Carpenter’s tools</p>
+        </description>
+        <sheet display="false" />
+    </element>
     <element name="Culinarian’s Tools" type="Item" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_ITEM_TOOL_CULINARIANS_TOOLS">
         <description>
             <p>Culinarian’s Tools utilizes animal products, fish and vegetables to create hearty meals that provide temporary buffs on consumption. Unlike other crafters, Culinarians are incapable of repairing equipment or melding materia however they more than make up for this with unique food consumption effects.</p>
@@ -120,6 +169,18 @@
             <set name="proficiency">ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_CULINARIANS_TOOLS</set>
         </setters>
     </element>
+    <element name="Culinarian’s Tools Proficiency" type="Proficiency" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_CULINARIANS_TOOLS">
+        <description>
+            <p>Become proficient with Culinarian’s tools</p>
+        </description>
+        <sheet display="false" />
+    </element>
+    <element name="Culinarian’s Tools Expertise" type="Proficiency" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_CULINARIANS_TOOLS">
+        <description>
+            <p>Become an expert with Culinarian’s tools</p>
+        </description>
+        <sheet display="false" />
+    </element>
     <element name="Goldsmith’s Tools" type="Item" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_ITEM_TOOL_GOLDSMITHS_TOOLS">
         <description>
             <p>Goldsmith’s Tools uses metals and gems to create accessories such as rings, earrings and necklaces for every class. They are also capable of crafting various weapons and equipment.</p>
@@ -142,6 +203,18 @@
             <set name="type">Tool</set>
             <set name="proficiency">ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_GOLDSMITHS_TOOLS</set>
         </setters>
+    </element>
+    <element name="Goldsmith’s Tools Proficiency" type="Proficiency" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_GOLDSMITHS_TOOLS">
+        <description>
+            <p>Become proficient with Goldsmith’s tools</p>
+        </description>
+        <sheet display="false" />
+    </element>
+    <element name="Goldsmith’s Tools Expertise" type="Proficiency" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_GOLDSMITHS_TOOLS">
+        <description>
+            <p>Become an expert with Goldsmith’s tools</p>
+        </description>
+        <sheet display="false" />
     </element>
     <element name="Leatherworker’s Tools" type="Item" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_ITEM_TOOL_LEATHERWORKERS_TOOLS">
         <description>
@@ -166,6 +239,18 @@
             <set name="proficiency">ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_LEATHERWORKERS_TOOLS</set>
         </setters>
     </element>
+    <element name="Leatherworker’s Tools Proficiency" type="Proficiency" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_LEATHERWORKERS_TOOLS">
+        <description>
+            <p>Become proficient with Leatherworker’s tools</p>
+        </description>
+        <sheet display="false" />
+    </element>
+    <element name="Leatherworker’s Tools Expertise" type="Proficiency" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_LEATHERWORKERS_TOOLS">
+        <description>
+            <p>Become an expert with Leatherworker’s tools</p>
+        </description>
+        <sheet display="false" />
+    </element>
     <element name="Weaver’s Tools" type="Item" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_ITEM_TOOL_WEAVERS_TOOLS">
         <description>
             <p>Weaver’s Tools use convert fabrics and fibres into comfortably light armors and accessories that are wearable by multiple classes. They can craft robes, ribbons, shirts, pantaloons and many other useful items</p>
@@ -189,5 +274,17 @@
             <set name="type">Tool</set>
             <set name="proficiency">ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_WEAVERS_TOOLS</set>
         </setters>
+    </element>
+    <element name="Weaver’s Tools Proficiency" type="Proficiency" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_WEAVERS_TOOLS">
+        <description>
+            <p>Become proficient with Weaver’s tools</p>
+        </description>
+        <sheet display="false" />
+    </element>
+    <element name="Weaver’s Tools Expertise" type="Proficiency" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_WEAVERS_TOOLS">
+        <description>
+            <p>Become an expert with Weaver’s tools</p>
+        </description>
+        <sheet display="false" />
     </element>
 </elements>
