@@ -2,7 +2,7 @@
 <elements>
     <info>
         <name>Gunbreaker</name>
-        <update version="1.0.1">
+        <update version="1.0.2">
             <file name="class-gunbreaker.xml" url="https://raw.githubusercontent.com/brentonmaas/ffxiv_aurorabuilder/master/ffxiv/compendium/classes/class-gunbreaker.xml" />
         </update>
     </info>
