@@ -11,7 +11,7 @@
     <files>
         <file name="source.xml" url="https://raw.githubusercontent.com/brentonmaas/ffxiv_aurorabuilder/master/ffxiv/compendium/source.xml" />
         <file name="languages.xml" url="https://raw.githubusercontent.com/brentonmaas/ffxiv_aurorabuilder/master/ffxiv/compendium/languages.xml" />
-        <file name="race-aura.xml" url="https://raw.githubusercontent.com/brentonmaas/ffxiv_aurorabuilder/master/ffxiv/compendium/races/race-aura.xml" />
+<!--        <file name="race-aura.xml" url="https://raw.githubusercontent.com/brentonmaas/ffxiv_aurorabuilder/master/ffxiv/compendium/races/race-aura.xml" />-->
         <file name="race-miqote.xml" url="https://raw.githubusercontent.com/brentonmaas/ffxiv_aurorabuilder/master/ffxiv/compendium/races/race-miqote.xml" />
 <!--        <file name="class-gunbreaker.xml" url="https://raw.githubusercontent.com/brentonmaas/ffxiv_aurorabuilder/main/ffxiv/compendium/classes/class-gunbreaker.xml" />-->
 <!--        <file name="items-tools.xml" url="https://raw.githubusercontent.com/brentonmaas/ffxiv_aurorabuilder/master/ffxiv/compendium/items/items-tools.xml" />-->
