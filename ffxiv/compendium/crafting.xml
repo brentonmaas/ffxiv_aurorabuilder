@@ -7,311 +7,311 @@
             <file name="crafting.xml" url="https://raw.githubusercontent.com/brentonmaas/ffxiv_aurorabuilder/master/ffxiv/compendium/crafting.xml" />
         </update>
     </info>
-    <!--
-        <element name="Crafting" type="Class Feature" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_FEATURE_NOVICECRAFTING">
-            <description>
-                <p>You gain access to a Crafting Profession. You can only select one Crafting Profession and will advance them at higher levels. You will be able to craft items from your Crafting Profession from the Novice Crafting List. Visit the respective profession guild and aquire your tools.</p>
-                <h5 class="caption">Alchemist</h5>
-                <p>Alchemists are masters of powders and potions – grinding and blending materials to produce useful consumables, elixirs, inks, wands, and grimoires.</p>
-                <h5 class="caption">Armorer</h5>
-                <p>Armorers excel at shaping metals and ores into equipable heavy armor - such as chainmail, ring mail, scale mail and plate body armor.</p>
-                <h5 class="caption">Blacksmith</h5>
-                <p>Blacksmiths specialize in the refining of metals and the production of main-hand and off-hand equipment, such as swords, axes, scythes, guns, and more.</p>
-                <h5 class="caption">Carpenter</h5>
-                <p>Carpenters excel at the production of wooden materials, furniture and equipment used by many classes in the game, such as clogs, bows, staves and polearms.</p>
-                <h5 class="caption">Culinarian</h5>
-                <p>Culinarians utilize various ingredients to create hearty and emboldening meals. Characters can consume food to receive temporary buffs to a variety of attributes.</p>
-                <h5 class="caption">Goldsmith</h5>
-                <p>Goldsmiths bend metals and gems into fashionable accessories and bejewelled weaponry. Many classes desire their fineries, such as rings, bracelets, necklaces, chakrams(dancer), nouliths(sage) and crystal mediums(red mage).</p>
-                <h5 class="caption">Leatherworker</h5>
-                <p>Leatherworkers prepare hides, pelts and furs from Eorzea’s most notorious monsters into leather-based medium armor and accessories.</p>
-                <h5 class="caption">Weaver</h5>
-                <p>Weavers convert fabrics and fibres into comfortably light armor and accessories, such as robes, ribbons, shirts and pantaloons.</p>
-            </description>
-            <rules>
-                <select type="Class Feature" name="Crafting Profession" supports="Gunbreaker" level="1"/>
-            </rules>
-        </element>
-        <element name="Alchemist" type="Class Feature" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_FEATURE_CRAFTING_ALCHEMIST">
-            <supports>Crafting, Gunbreaker</supports>
-            <description>
-                <p>Alchemists are masters of powders and potions – grinding and blending materials to produce useful consumables, elixirs, inks, wands, and grimoires.</p>
-            </description>
-            <sheet>
-                <description usage="{{alchemist:level}}">Craft items with a +{{alchemist:modifier}} from the {{alchemist:level}} Crafting Log. Elemental Crafting: {{alchemist:aspect}}. Materia: {{alchemist:materia}}. Desynthesis: {{alchemist:desynthesis}}. Extract Materia: {{alchemist:extract}}</description>
-            </sheet>
-            <rules>
-                <stat name="alchemist:level" value="novice" inline="true" />
-                <stat name="alchemist:modifier" value="proficiency" />
-                <stat name="alchemist:aspect" value="No" inline="true" />
-                <stat name="alchemist:materia" value="0" />
-                <stat name="alchemist:desynthesis" value="No" inline="true" />
-                <stat name="alchemist:extract" value="No" inline="true" />
-            </rules>
-        </element>
-        <element name="Armorer" type="Class Feature" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_FEATURE_CRAFTING_ARMORER">
-            <supports>Crafting, Gunbreaker</supports>
-            <description>
-                <p>Armorers excel at shaping metals and ores into equipable heavy armor - such as chainmail, ring mail, scale mail and plate body armor.</p>
-            </description>
-            <sheet>
-                <description usage="{{armorer:level}}">Craft items with a +{{armorer:modifier}} from the {{armorer:level}} Crafting Log. Elemental Crafting: {{armorer:aspect}}. Materia: {{armorer:materia}}. Desynthesis: {{armorer:desynthesis}}. Extract Materia: {{armorer:extract}}</description>
-            </sheet>
-            <rules>
-                <stat name="armorer:level" value="novice" inline="true" />
-                <stat name="armorer:modifier" value="proficiency" />
-                <stat name="armorer:aspect" value="No" inline="true" />
-                <stat name="armorer:materia" value="0" />
-                <stat name="armorer:desynthesis" value="No" inline="true" />
-                <stat name="armorer:extract" value="No" inline="true" />
-            </rules>
-        </element>
-        <element name="Blacksmith" type="Class Feature" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_FEATURE_CRAFTING_BLACKSMITH">
-            <supports>Crafting, Gunbreaker</supports>
-            <description>
-                <p>Blacksmiths specialize in the refining of metals and the production of main-hand and off-hand equipment, such as swords, axes, scythes, guns, and more.</p>
-            </description>
-            <sheet>
-                <description usage="{{blacksmith:level}}">Craft items with a +{{blacksmith:modifier}} from the {{blacksmith:level}} Crafting Log. Elemental Crafting: {{blacksmith:aspect}}. Materia: {{blacksmith:materia}}. Desynthesis: {{blacksmith:desynthesis}}. Extract Materia: {{blacksmith:extract}}</description>
-            </sheet>
-            <rules>
-                <stat name="blacksmith:level" value="novice" inline="true" />
-                <stat name="blacksmith:modifier" value="proficiency" />
-                <stat name="blacksmith:aspect" value="No" inline="true" />
-                <stat name="blacksmith:materia" value="0" />
-                <stat name="blacksmith:desynthesis" value="No" inline="true" />
-                <stat name="blacksmith:extract" value="No" inline="true" />
-            </rules>
-        </element>
-        <element name="Carpenter" type="Class Feature" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_FEATURE_CRAFTING_CARPENTER">
-            <supports>Crafting, Gunbreaker</supports>
-            <description>
-                <p>Carpenters excel at the production of wooden materials, furniture and equipment used by many classes in the game, such as clogs, bows, staves and polearms.</p>
-            </description>
-            <sheet>
-                <description usage="{{carpenter:level}}">Craft items with a +{{carpenter:modifier}} from the {{carpenter:level}} Crafting Log. Elemental Crafting: {{carpenter:aspect}}. Materia: {{carpenter:materia}}. Desynthesis: {{carpenter:desynthesis}}. Extract Materia: {{carpenter:extract}}</description>
-            </sheet>
-            <rules>
-                <stat name="carpenter:level" value="novice" inline="true" />
-                <stat name="carpenter:modifier" value="proficiency" />
-                <stat name="carpenter:aspect" value="No" inline="true" />
-                <stat name="carpenter:materia" value="0" />
-                <stat name="carpenter:desynthesis" value="No" inline="true" />
-                <stat name="carpenter:extract" value="No" inline="true" />
-            </rules>
-        </element>
-        <element name="Culinarian" type="Class Feature" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_FEATURE_CRAFTING_CULINARIAN">
-            <supports>Crafting, Gunbreaker</supports>
-            <description>
-                <p>Culinarians utilize various ingredients to create hearty and emboldening meals. Characters can consume food to receive temporary buffs to a variety of attributes.</p>
-            </description>
-            <sheet>
-                <description usage="{{culinarian:level}}">Craft items with a +{{culinarian:modifier}} from the {{culinarian:level}} Crafting Log. Elemental Crafting: {{culinarian:aspect}}. Materia: {{culinarian:materia}}. Desynthesis: {{culinarian:desynthesis}}. Extract Materia: {{culinarian:extract}}</description>
-            </sheet>
-            <rules>
-                <stat name="culinarian:level" value="novice" inline="true" />
-                <stat name="culinarian:modifier" value="proficiency" />
-                <stat name="culinarian:aspect" value="No" inline="true" />
-                <stat name="culinarian:materia" value="0" />
-                <stat name="culinarian:desynthesis" value="No" inline="true" />
-                <stat name="culinarian:extract" value="No" inline="true" />
-            </rules>
-        </element>
-        <element name="Goldsmith" type="Class Feature" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_FEATURE_CRAFTING_GOLDSMITH">
-            <supports>Crafting, Gunbreaker</supports>
-            <description>
-                <p>Goldsmiths bend metals and gems into fashionable accessories and bejewelled weaponry. Many classes desire their fineries, such as rings, bracelets, necklaces, chakrams(dancer), nouliths(sage) and crystal mediums(red mage).</p>
-            </description>
-            <sheet>
-                <description usage="{{goldsmith:level}}">Craft items with a +{{goldsmith:modifier}} from the {{goldsmith:level}} Crafting Log. Elemental Crafting: {{goldsmith:aspect}}. Materia: {{goldsmith:materia}}. Desynthesis: {{goldsmith:desynthesis}}. Extract Materia: {{goldsmith:extract}}</description>
-            </sheet>
-            <rules>
-                <stat name="goldsmith:level" value="novice" inline="true" />
-                <stat name="goldsmith:modifier" value="proficiency" />
-                <stat name="goldsmith:aspect" value="No" inline="true" />
-                <stat name="goldsmith:materia" value="0" />
-                <stat name="goldsmith:desynthesis" value="No" inline="true" />
-                <stat name="goldsmith:extract" value="No" inline="true" />
-            </rules>
-        </element>
-        <element name="Leatherworker" type="Class Feature" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_FEATURE_CRAFTING_LEATHERWORKER">
-            <supports>Crafting, Gunbreaker</supports>
-            <description>
-                <p>Leatherworkers prepare hides, pelts and furs from Eorzea’s most notorious monsters into leather-based medium armor and accessories.</p>
-            </description>
-            <sheet>
-                <description usage="{{leatherworker:level}}">Craft items with a +{{leatherworker:modifier}} from the {{leatherworker:level}} Crafting Log. Elemental Crafting: {{leatherworker:aspect}}. Materia: {{leatherworker:materia}}. Desynthesis: {{leatherworker:desynthesis}}. Extract Materia: {{leatherworker:extract}}</description>
-            </sheet>
-            <rules>
-                <stat name="leatherworker:level" value="novice" inline="true" />
-                <stat name="leatherworker:modifier" value="proficiency" />
-                <stat name="leatherworker:aspect" value="No" inline="true" />
-                <stat name="leatherworker:materia" value="0" />
-                <stat name="leatherworker:desynthesis" value="No" inline="true" />
-                <stat name="leatherworker:extract" value="No" inline="true" />
-            </rules>
-        </element>
-        <element name="Weaver" type="Class Feature" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_FEATURE_CRAFTING_WEAVER">
-            <supports>Crafting, Gunbreaker</supports>
-            <description>
-                <p>Weavers convert fabrics and fibres into comfortably light armor and accessories, such as robes, ribbons, shirts and pantaloons.</p>
-            </description>
-            <sheet>
-                <description usage="{{weaver:level}}">Craft items with a +{{weaver:modifier}} from the {{weaver:level}} Crafting Log. Elemental Crafting: {{weaver:aspect}}. Materia: {{weaver:materia}}. Desynthesis: {{weaver:desynthesis}}. Extract Materia: {{weaver:extract}}</description>
-            </sheet>
-            <rules>
-                <stat name="weaver:level" value="novice" inline="true" />
-                <stat name="weaver:modifier" value="proficiency" />
-                <stat name="weaver:aspect" value="No" inline="true" />
-                <stat name="weaver:materia" value="0" />
-                <stat name="weaver:desynthesis" value="No" inline="true" />
-                <stat name="weaver:extract" value="No" inline="true" />
-            </rules>
-        </element>
-        <element name="Journeyman Crafting" type="Class Feature" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_FEATURE_JOURNEYMANCRAFTING">
-            <description>
-                <p>Beginning at the 4th level, after receiving and completing your guild quest, you will gain access to the Journeyman Crafting Log.</p>
-                <h5 class="caption">Elemental Crafting</h5>
-                <p>You will now be able to meld and elementally aspected crystal into your weapons, armor and accessories.</p>
-                <h5 class="caption">Proficient</h5>
-                <p class="indent">You gain proficiency in your crafting tools and expertise if you are already proficient.</p>
-            </description>
-            <rules>
-                <stat name="alchemist:level" value="journeyman" level="4" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_ALCHEMIST" />
-                <stat name="armorer:level" value="journeyman" level="4" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_ARMORER" />
-                <stat name="blacksmith:level" value="journeyman" level="4" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_BLACKSMITH" />
-                <stat name="carpenter:level" value="journeyman" level="4" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_CARPENTER" />
-                <stat name="culinarian:level" value="journeyman" level="4" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_CULINARIAN" />
-                <stat name="goldsmith:level" value="journeyman" level="4" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_GOLDSMITH" />
-                <stat name="leatherworker:level" value="journeyman" level="4" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_LEATHERWORKER" />
-                <stat name="weaver:level" value="journeyman" level="4" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_WEAVER" />
 
-                <grant type="Proficiency" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_ALCHEMISTS_TOOLS" requires="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_ALCHEMISTS_TOOLS, ID_FFXIV_CLASS_FEATURE_CRAFTING_ALCHEMIST" />
-                <grant type="Proficiency" id="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_ALCHEMISTS_TOOLS" requires="!ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_ALCHEMISTS_TOOLS,ID_FFXIV_CLASS_FEATURE_CRAFTING_ALCHEMIST" />
+    <element name="Crafting" type="Class Feature" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_FEATURE_NOVICECRAFTING">
+        <description>
+            <p>You gain access to a Crafting Profession. You can only select one Crafting Profession and will advance them at higher levels. You will be able to craft items from your Crafting Profession from the Novice Crafting List. Visit the respective profession guild and aquire your tools.</p>
+            <h5 class="caption">Alchemist</h5>
+            <p>Alchemists are masters of powders and potions – grinding and blending materials to produce useful consumables, elixirs, inks, wands, and grimoires.</p>
+            <h5 class="caption">Armorer</h5>
+            <p>Armorers excel at shaping metals and ores into equipable heavy armor - such as chainmail, ring mail, scale mail and plate body armor.</p>
+            <h5 class="caption">Blacksmith</h5>
+            <p>Blacksmiths specialize in the refining of metals and the production of main-hand and off-hand equipment, such as swords, axes, scythes, guns, and more.</p>
+            <h5 class="caption">Carpenter</h5>
+            <p>Carpenters excel at the production of wooden materials, furniture and equipment used by many classes in the game, such as clogs, bows, staves and polearms.</p>
+            <h5 class="caption">Culinarian</h5>
+            <p>Culinarians utilize various ingredients to create hearty and emboldening meals. Characters can consume food to receive temporary buffs to a variety of attributes.</p>
+            <h5 class="caption">Goldsmith</h5>
+            <p>Goldsmiths bend metals and gems into fashionable accessories and bejewelled weaponry. Many classes desire their fineries, such as rings, bracelets, necklaces, chakrams(dancer), nouliths(sage) and crystal mediums(red mage).</p>
+            <h5 class="caption">Leatherworker</h5>
+            <p>Leatherworkers prepare hides, pelts and furs from Eorzea’s most notorious monsters into leather-based medium armor and accessories.</p>
+            <h5 class="caption">Weaver</h5>
+            <p>Weavers convert fabrics and fibres into comfortably light armor and accessories, such as robes, ribbons, shirts and pantaloons.</p>
+        </description>
+        <rules>
+            <select type="Class Feature" name="Crafting Profession" supports="Gunbreaker" level="1"/>
+        </rules>
+    </element>
+    <element name="Alchemist" type="Class Feature" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_FEATURE_CRAFTING_ALCHEMIST">
+        <supports>Crafting, Gunbreaker</supports>
+        <description>
+            <p>Alchemists are masters of powders and potions – grinding and blending materials to produce useful consumables, elixirs, inks, wands, and grimoires.</p>
+        </description>
+        <sheet>
+            <description usage="{{alchemist:level}}">Craft items with a +{{alchemist:modifier}} from the {{alchemist:level}} Crafting Log. Elemental Crafting: {{alchemist:aspect}}. Materia: {{alchemist:materia}}. Desynthesis: {{alchemist:desynthesis}}. Extract Materia: {{alchemist:extract}}</description>
+        </sheet>
+        <rules>
+            <stat name="alchemist:level" value="novice" inline="true" />
+            <stat name="alchemist:modifier" value="proficiency" />
+            <stat name="alchemist:aspect" value="No" inline="true" />
+            <stat name="alchemist:materia" value="0" />
+            <stat name="alchemist:desynthesis" value="No" inline="true" />
+            <stat name="alchemist:extract" value="No" inline="true" />
+        </rules>
+    </element>
+    <element name="Armorer" type="Class Feature" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_FEATURE_CRAFTING_ARMORER">
+        <supports>Crafting, Gunbreaker</supports>
+        <description>
+            <p>Armorers excel at shaping metals and ores into equipable heavy armor - such as chainmail, ring mail, scale mail and plate body armor.</p>
+        </description>
+        <sheet>
+            <description usage="{{armorer:level}}">Craft items with a +{{armorer:modifier}} from the {{armorer:level}} Crafting Log. Elemental Crafting: {{armorer:aspect}}. Materia: {{armorer:materia}}. Desynthesis: {{armorer:desynthesis}}. Extract Materia: {{armorer:extract}}</description>
+        </sheet>
+        <rules>
+            <stat name="armorer:level" value="novice" inline="true" />
+            <stat name="armorer:modifier" value="proficiency" />
+            <stat name="armorer:aspect" value="No" inline="true" />
+            <stat name="armorer:materia" value="0" />
+            <stat name="armorer:desynthesis" value="No" inline="true" />
+            <stat name="armorer:extract" value="No" inline="true" />
+        </rules>
+    </element>
+    <element name="Blacksmith" type="Class Feature" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_FEATURE_CRAFTING_BLACKSMITH">
+        <supports>Crafting, Gunbreaker</supports>
+        <description>
+            <p>Blacksmiths specialize in the refining of metals and the production of main-hand and off-hand equipment, such as swords, axes, scythes, guns, and more.</p>
+        </description>
+        <sheet>
+            <description usage="{{blacksmith:level}}">Craft items with a +{{blacksmith:modifier}} from the {{blacksmith:level}} Crafting Log. Elemental Crafting: {{blacksmith:aspect}}. Materia: {{blacksmith:materia}}. Desynthesis: {{blacksmith:desynthesis}}. Extract Materia: {{blacksmith:extract}}</description>
+        </sheet>
+        <rules>
+            <stat name="blacksmith:level" value="novice" inline="true" />
+            <stat name="blacksmith:modifier" value="proficiency" />
+            <stat name="blacksmith:aspect" value="No" inline="true" />
+            <stat name="blacksmith:materia" value="0" />
+            <stat name="blacksmith:desynthesis" value="No" inline="true" />
+            <stat name="blacksmith:extract" value="No" inline="true" />
+        </rules>
+    </element>
+    <element name="Carpenter" type="Class Feature" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_FEATURE_CRAFTING_CARPENTER">
+        <supports>Crafting, Gunbreaker</supports>
+        <description>
+            <p>Carpenters excel at the production of wooden materials, furniture and equipment used by many classes in the game, such as clogs, bows, staves and polearms.</p>
+        </description>
+        <sheet>
+            <description usage="{{carpenter:level}}">Craft items with a +{{carpenter:modifier}} from the {{carpenter:level}} Crafting Log. Elemental Crafting: {{carpenter:aspect}}. Materia: {{carpenter:materia}}. Desynthesis: {{carpenter:desynthesis}}. Extract Materia: {{carpenter:extract}}</description>
+        </sheet>
+        <rules>
+            <stat name="carpenter:level" value="novice" inline="true" />
+            <stat name="carpenter:modifier" value="proficiency" />
+            <stat name="carpenter:aspect" value="No" inline="true" />
+            <stat name="carpenter:materia" value="0" />
+            <stat name="carpenter:desynthesis" value="No" inline="true" />
+            <stat name="carpenter:extract" value="No" inline="true" />
+        </rules>
+    </element>
+    <element name="Culinarian" type="Class Feature" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_FEATURE_CRAFTING_CULINARIAN">
+        <supports>Crafting, Gunbreaker</supports>
+        <description>
+            <p>Culinarians utilize various ingredients to create hearty and emboldening meals. Characters can consume food to receive temporary buffs to a variety of attributes.</p>
+        </description>
+        <sheet>
+            <description usage="{{culinarian:level}}">Craft items with a +{{culinarian:modifier}} from the {{culinarian:level}} Crafting Log. Elemental Crafting: {{culinarian:aspect}}. Materia: {{culinarian:materia}}. Desynthesis: {{culinarian:desynthesis}}. Extract Materia: {{culinarian:extract}}</description>
+        </sheet>
+        <rules>
+            <stat name="culinarian:level" value="novice" inline="true" />
+            <stat name="culinarian:modifier" value="proficiency" />
+            <stat name="culinarian:aspect" value="No" inline="true" />
+            <stat name="culinarian:materia" value="0" />
+            <stat name="culinarian:desynthesis" value="No" inline="true" />
+            <stat name="culinarian:extract" value="No" inline="true" />
+        </rules>
+    </element>
+    <element name="Goldsmith" type="Class Feature" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_FEATURE_CRAFTING_GOLDSMITH">
+        <supports>Crafting, Gunbreaker</supports>
+        <description>
+            <p>Goldsmiths bend metals and gems into fashionable accessories and bejewelled weaponry. Many classes desire their fineries, such as rings, bracelets, necklaces, chakrams(dancer), nouliths(sage) and crystal mediums(red mage).</p>
+        </description>
+        <sheet>
+            <description usage="{{goldsmith:level}}">Craft items with a +{{goldsmith:modifier}} from the {{goldsmith:level}} Crafting Log. Elemental Crafting: {{goldsmith:aspect}}. Materia: {{goldsmith:materia}}. Desynthesis: {{goldsmith:desynthesis}}. Extract Materia: {{goldsmith:extract}}</description>
+        </sheet>
+        <rules>
+            <stat name="goldsmith:level" value="novice" inline="true" />
+            <stat name="goldsmith:modifier" value="proficiency" />
+            <stat name="goldsmith:aspect" value="No" inline="true" />
+            <stat name="goldsmith:materia" value="0" />
+            <stat name="goldsmith:desynthesis" value="No" inline="true" />
+            <stat name="goldsmith:extract" value="No" inline="true" />
+        </rules>
+    </element>
+    <element name="Leatherworker" type="Class Feature" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_FEATURE_CRAFTING_LEATHERWORKER">
+        <supports>Crafting, Gunbreaker</supports>
+        <description>
+            <p>Leatherworkers prepare hides, pelts and furs from Eorzea’s most notorious monsters into leather-based medium armor and accessories.</p>
+        </description>
+        <sheet>
+            <description usage="{{leatherworker:level}}">Craft items with a +{{leatherworker:modifier}} from the {{leatherworker:level}} Crafting Log. Elemental Crafting: {{leatherworker:aspect}}. Materia: {{leatherworker:materia}}. Desynthesis: {{leatherworker:desynthesis}}. Extract Materia: {{leatherworker:extract}}</description>
+        </sheet>
+        <rules>
+            <stat name="leatherworker:level" value="novice" inline="true" />
+            <stat name="leatherworker:modifier" value="proficiency" />
+            <stat name="leatherworker:aspect" value="No" inline="true" />
+            <stat name="leatherworker:materia" value="0" />
+            <stat name="leatherworker:desynthesis" value="No" inline="true" />
+            <stat name="leatherworker:extract" value="No" inline="true" />
+        </rules>
+    </element>
+    <element name="Weaver" type="Class Feature" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_FEATURE_CRAFTING_WEAVER">
+        <supports>Crafting, Gunbreaker</supports>
+        <description>
+            <p>Weavers convert fabrics and fibres into comfortably light armor and accessories, such as robes, ribbons, shirts and pantaloons.</p>
+        </description>
+        <sheet>
+            <description usage="{{weaver:level}}">Craft items with a +{{weaver:modifier}} from the {{weaver:level}} Crafting Log. Elemental Crafting: {{weaver:aspect}}. Materia: {{weaver:materia}}. Desynthesis: {{weaver:desynthesis}}. Extract Materia: {{weaver:extract}}</description>
+        </sheet>
+        <rules>
+            <stat name="weaver:level" value="novice" inline="true" />
+            <stat name="weaver:modifier" value="proficiency" />
+            <stat name="weaver:aspect" value="No" inline="true" />
+            <stat name="weaver:materia" value="0" />
+            <stat name="weaver:desynthesis" value="No" inline="true" />
+            <stat name="weaver:extract" value="No" inline="true" />
+        </rules>
+    </element>
+    <element name="Journeyman Crafting" type="Class Feature" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_FEATURE_JOURNEYMANCRAFTING">
+        <description>
+            <p>Beginning at the 4th level, after receiving and completing your guild quest, you will gain access to the Journeyman Crafting Log.</p>
+            <h5 class="caption">Elemental Crafting</h5>
+            <p>You will now be able to meld and elementally aspected crystal into your weapons, armor and accessories.</p>
+            <h5 class="caption">Proficient</h5>
+            <p class="indent">You gain proficiency in your crafting tools and expertise if you are already proficient.</p>
+        </description>
+        <rules>
+            <stat name="alchemist:level" value="journeyman" level="4" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_ALCHEMIST" />
+            <stat name="armorer:level" value="journeyman" level="4" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_ARMORER" />
+            <stat name="blacksmith:level" value="journeyman" level="4" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_BLACKSMITH" />
+            <stat name="carpenter:level" value="journeyman" level="4" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_CARPENTER" />
+            <stat name="culinarian:level" value="journeyman" level="4" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_CULINARIAN" />
+            <stat name="goldsmith:level" value="journeyman" level="4" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_GOLDSMITH" />
+            <stat name="leatherworker:level" value="journeyman" level="4" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_LEATHERWORKER" />
+            <stat name="weaver:level" value="journeyman" level="4" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_WEAVER" />
 
-                <grant type="Proficiency" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_ARMORERS_TOOLS" requires="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_ARMORERS_TOOLS, ID_FFXIV_CLASS_FEATURE_CRAFTING_ARMORER" />
-                <grant type="Proficiency" id="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_ARMORERS_TOOLS" requires="!ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_ARMORERS_TOOLS, ID_FFXIV_CLASS_FEATURE_CRAFTING_ARMORER" />
+            <grant type="Proficiency" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_ALCHEMISTS_TOOLS" requires="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_ALCHEMISTS_TOOLS, ID_FFXIV_CLASS_FEATURE_CRAFTING_ALCHEMIST" />
+            <grant type="Proficiency" id="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_ALCHEMISTS_TOOLS" requires="!ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_ALCHEMISTS_TOOLS,ID_FFXIV_CLASS_FEATURE_CRAFTING_ALCHEMIST" />
 
-                <grant type="Proficiency" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_BLACKSMITHS_TOOLS" requires="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_BLACKSMITHS_TOOLS, ID_FFXIV_CLASS_FEATURE_CRAFTING_BLACKSMITH" />
-                <grant type="Proficiency" id="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_BLACKSMITHS_TOOLS" requires="!ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_BLACKSMITHS_TOOLS, ID_FFXIV_CLASS_FEATURE_CRAFTING_BLACKSMITH" />
+            <grant type="Proficiency" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_ARMORERS_TOOLS" requires="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_ARMORERS_TOOLS, ID_FFXIV_CLASS_FEATURE_CRAFTING_ARMORER" />
+            <grant type="Proficiency" id="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_ARMORERS_TOOLS" requires="!ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_ARMORERS_TOOLS, ID_FFXIV_CLASS_FEATURE_CRAFTING_ARMORER" />
 
-                <grant type="Proficiency" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_CARPENTERS_TOOLS" requires="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_CARPENTERS_TOOLS, ID_FFXIV_CLASS_FEATURE_CRAFTING_CARPENTER" />
-                <grant type="Proficiency" id="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_CARPENTERS_TOOLS" requires="!ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_CARPENTERS_TOOLS, ID_FFXIV_CLASS_FEATURE_CRAFTING_CARPENTER" />
+            <grant type="Proficiency" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_BLACKSMITHS_TOOLS" requires="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_BLACKSMITHS_TOOLS, ID_FFXIV_CLASS_FEATURE_CRAFTING_BLACKSMITH" />
+            <grant type="Proficiency" id="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_BLACKSMITHS_TOOLS" requires="!ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_BLACKSMITHS_TOOLS, ID_FFXIV_CLASS_FEATURE_CRAFTING_BLACKSMITH" />
 
-                <grant type="Proficiency" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_CULINARIANS_TOOLS" requires="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_CULINARIANS_TOOLS, ID_FFXIV_CLASS_FEATURE_CRAFTING_CULINARIAN" />
-                <grant type="Proficiency" id="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_CULINARIANS_TOOLS" requires="!ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_CULINARIANS_TOOLS, ID_FFXIV_CLASS_FEATURE_CRAFTING_CULINARIAN" />
+            <grant type="Proficiency" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_CARPENTERS_TOOLS" requires="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_CARPENTERS_TOOLS, ID_FFXIV_CLASS_FEATURE_CRAFTING_CARPENTER" />
+            <grant type="Proficiency" id="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_CARPENTERS_TOOLS" requires="!ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_CARPENTERS_TOOLS, ID_FFXIV_CLASS_FEATURE_CRAFTING_CARPENTER" />
 
-                <grant type="Proficiency" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_GOLDSMITHS_TOOLS" requires="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_GOLDSMITHS_TOOLS, ID_FFXIV_CLASS_FEATURE_CRAFTING_GOLDSMITH" />
-                <grant type="Proficiency" id="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_GOLDSMITHS_TOOLS" requires="!ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_GOLDSMITHS_TOOLS, ID_FFXIV_CLASS_FEATURE_CRAFTING_GOLDSMITH" />
+            <grant type="Proficiency" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_CULINARIANS_TOOLS" requires="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_CULINARIANS_TOOLS, ID_FFXIV_CLASS_FEATURE_CRAFTING_CULINARIAN" />
+            <grant type="Proficiency" id="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_CULINARIANS_TOOLS" requires="!ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_CULINARIANS_TOOLS, ID_FFXIV_CLASS_FEATURE_CRAFTING_CULINARIAN" />
 
-                <grant type="Proficiency" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_LEATHERWORKERS_TOOLS" requires="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_LEATHERWORKERS_TOOLS, ID_FFXIV_CLASS_FEATURE_CRAFTING_LEATHERWORKER" />
-                <grant type="Proficiency" id="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_LEATHERWORKERS_TOOLS" requires="!ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_LEATHERWORKERS_TOOLS, ID_FFXIV_CLASS_FEATURE_CRAFTING_LEATHERWORKER" />
+            <grant type="Proficiency" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_GOLDSMITHS_TOOLS" requires="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_GOLDSMITHS_TOOLS, ID_FFXIV_CLASS_FEATURE_CRAFTING_GOLDSMITH" />
+            <grant type="Proficiency" id="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_GOLDSMITHS_TOOLS" requires="!ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_GOLDSMITHS_TOOLS, ID_FFXIV_CLASS_FEATURE_CRAFTING_GOLDSMITH" />
 
-                <grant type="Proficiency" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_WEAVERS_TOOLS" requires="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_WEAVERS_TOOLS, ID_FFXIV_CLASS_FEATURE_CRAFTING_WEAVER" />
-                <grant type="Proficiency" id="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_WEAVERS_TOOLS" requires="!ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_WEAVERS_TOOLS, ID_FFXIV_CLASS_FEATURE_CRAFTING_WEAVER" />
-            </rules>
-        </element>
-        <element name="Advanced Crafting" type="Class Feature" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_FEATURE_ADVANCEDCRAFTING">
-            <description>
-                <p>Beginning at the 8th level, after receiving and completing your guild quest, you will gain access to the Advanced Crafting Log.</p>
-                <h5 class="caption">Materia Melding</h5>
-                <p>You will now be able to meld materia into your weapons, armor and accessories that are craftable by your profession. Your skill only allows you to meld 1 materia per item</p>
-                <h5 class="caption">Expert Crafter</h5>
-                <p class="indent">You gain expertise in your crafting tools.</p>
-            </description>
-            <rules>
-                <stat name="alchemist:level" value="advanced" level="8" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_ALCHEMIST" />
-                <stat name="armorer:level" value="advanced" level="8" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_ARMORER" />
-                <stat name="blacksmith:level" value="advanced" level="8" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_BLACKSMITH" />
-                <stat name="carpenter:level" value="advanced" level="8" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_CARPENTER" />
-                <stat name="culinarian:level" value="advanced" level="8" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_CULINARIAN" />
-                <stat name="goldsmith:level" value="advanced" level="8" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_GOLDSMITH" />
-                <stat name="leatherworker:level" value="advanced" level="8" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_LEATHERWORKER" />
-                <stat name="weaver:level" value="advanced" level="8" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_WEAVER" />
+            <grant type="Proficiency" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_LEATHERWORKERS_TOOLS" requires="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_LEATHERWORKERS_TOOLS, ID_FFXIV_CLASS_FEATURE_CRAFTING_LEATHERWORKER" />
+            <grant type="Proficiency" id="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_LEATHERWORKERS_TOOLS" requires="!ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_LEATHERWORKERS_TOOLS, ID_FFXIV_CLASS_FEATURE_CRAFTING_LEATHERWORKER" />
 
-                <stat name="alchemist:materia" value="1" level="8" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_ALCHEMIST" />
-                <stat name="armorer:materia" value="1" level="8" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_ARMORER" />
-                <stat name="blacksmith:materia" value="1" level="8" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_BLACKSMITH" />
-                <stat name="carpenter:materia" value="1" level="8" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_CARPENTER" />
-                <stat name="culinarian:materia" value="0" level="8" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_CULINARIAN" />
-                <stat name="goldsmith:materia" value="1" level="8" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_GOLDSMITH" />
-                <stat name="leatherworker:materia" value="1" level="8" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_LEATHERWORKER" />
-                <stat name="weaver:materia" value="1" level="8" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_WEAVER" />
+            <grant type="Proficiency" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_WEAVERS_TOOLS" requires="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_WEAVERS_TOOLS, ID_FFXIV_CLASS_FEATURE_CRAFTING_WEAVER" />
+            <grant type="Proficiency" id="ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_WEAVERS_TOOLS" requires="!ID_FFXIV_PROFICIENCY_TOOL_PROFICIENCY_WEAVERS_TOOLS, ID_FFXIV_CLASS_FEATURE_CRAFTING_WEAVER" />
+        </rules>
+    </element>
+    <element name="Advanced Crafting" type="Class Feature" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_FEATURE_ADVANCEDCRAFTING">
+        <description>
+            <p>Beginning at the 8th level, after receiving and completing your guild quest, you will gain access to the Advanced Crafting Log.</p>
+            <h5 class="caption">Materia Melding</h5>
+            <p>You will now be able to meld materia into your weapons, armor and accessories that are craftable by your profession. Your skill only allows you to meld 1 materia per item</p>
+            <h5 class="caption">Expert Crafter</h5>
+            <p class="indent">You gain expertise in your crafting tools.</p>
+        </description>
+        <rules>
+            <stat name="alchemist:level" value="advanced" level="8" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_ALCHEMIST" />
+            <stat name="armorer:level" value="advanced" level="8" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_ARMORER" />
+            <stat name="blacksmith:level" value="advanced" level="8" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_BLACKSMITH" />
+            <stat name="carpenter:level" value="advanced" level="8" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_CARPENTER" />
+            <stat name="culinarian:level" value="advanced" level="8" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_CULINARIAN" />
+            <stat name="goldsmith:level" value="advanced" level="8" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_GOLDSMITH" />
+            <stat name="leatherworker:level" value="advanced" level="8" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_LEATHERWORKER" />
+            <stat name="weaver:level" value="advanced" level="8" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_WEAVER" />
 
-                <grant type="Proficiency" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_ALCHEMISTS_TOOLS" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_ALCHEMIST" />
-                <grant type="Proficiency" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_ARMORERS_TOOLS" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_ARMORER" />
-                <grant type="Proficiency" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_BLACKSMITHS_TOOLS" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_BLACKSMITH" />
-                <grant type="Proficiency" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_CARPENTERS_TOOLS" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_CARPENTER" />
-                <grant type="Proficiency" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_CULINARIANS_TOOLS" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_CULINARIAN" />
-                <grant type="Proficiency" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_GOLDSMITHS_TOOLS" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_GOLDSMITH" />
-                <grant type="Proficiency" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_LEATHERWORKERS_TOOLS" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_LEATHERWORKER" />
-                <grant type="Proficiency" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_WEAVERS_TOOLS" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_WEAVER" />
-            </rules>
-        </element>
-        <element name="Master Crafting" type="Class Feature" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_FEATURE_MASTERCRAFTING">
-            <description>
-                <p>Beginning at the 12th level, after receiving and completing your guild quest, you will gain access to the Master Crafting Log.</p>
-                <h5 class="caption">Advanced Melding</h5>
-                <p>Your skill now allows you to meld 2 materia per item</p>
-                <h5 class="caption">Desynthesis</h5>
-                <p class="indent">You gain the ability to attempt to breakdown an item of the type that would appear in your crafting log. The difficulty is equal to the items crafting difficulty. On success you may select up to 2 crafting components to recover (does not include materia) but the item is lost, on failure the item and all components are lost.</p>
-            </description>
-            <rules>
-                <stat name="alchemist:level" value="master" level="12" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_ALCHEMIST" />
-                <stat name="armorer:level" value="master" level="12" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_ARMORER" />
-                <stat name="blacksmith:level" value="master" level="12" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_BLACKSMITH" />
-                <stat name="carpenter:level" value="master" level="12" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_CARPENTER" />
-                <stat name="culinarian:level" value="master" level="12" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_CULINARIAN" />
-                <stat name="goldsmith:level" value="master" level="12" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_GOLDSMITH" />
-                <stat name="leatherworker:level" value="master" level="12" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_LEATHERWORKER" />
-                <stat name="weaver:level" value="master" level="12" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_WEAVER" />
+            <stat name="alchemist:materia" value="1" level="8" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_ALCHEMIST" />
+            <stat name="armorer:materia" value="1" level="8" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_ARMORER" />
+            <stat name="blacksmith:materia" value="1" level="8" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_BLACKSMITH" />
+            <stat name="carpenter:materia" value="1" level="8" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_CARPENTER" />
+            <stat name="culinarian:materia" value="0" level="8" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_CULINARIAN" />
+            <stat name="goldsmith:materia" value="1" level="8" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_GOLDSMITH" />
+            <stat name="leatherworker:materia" value="1" level="8" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_LEATHERWORKER" />
+            <stat name="weaver:materia" value="1" level="8" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_WEAVER" />
 
-                <stat name="alchemist:materia" value="2" level="12" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_ALCHEMIST" />
-                <stat name="armorer:materia" value="2" level="12" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_ARMORER" />
-                <stat name="blacksmith:materia" value="2" level="12" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_BLACKSMITH" />
-                <stat name="carpenter:materia" value="2" level="12" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_CARPENTER" />
-                <stat name="culinarian:materia" value="0" level="12" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_CULINARIAN" />
-                <stat name="goldsmith:materia" value="2" level="12" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_GOLDSMITH" />
-                <stat name="leatherworker:materia" value="2" level="12" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_LEATHERWORKER" />
-                <stat name="weaver:materia" value="2" level="12" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_WEAVER" />
+            <grant type="Proficiency" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_ALCHEMISTS_TOOLS" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_ALCHEMIST" />
+            <grant type="Proficiency" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_ARMORERS_TOOLS" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_ARMORER" />
+            <grant type="Proficiency" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_BLACKSMITHS_TOOLS" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_BLACKSMITH" />
+            <grant type="Proficiency" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_CARPENTERS_TOOLS" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_CARPENTER" />
+            <grant type="Proficiency" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_CULINARIANS_TOOLS" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_CULINARIAN" />
+            <grant type="Proficiency" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_GOLDSMITHS_TOOLS" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_GOLDSMITH" />
+            <grant type="Proficiency" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_LEATHERWORKERS_TOOLS" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_LEATHERWORKER" />
+            <grant type="Proficiency" id="ID_FFXIV_EXPERTISE_TOOL_PROFICIENCY_WEAVERS_TOOLS" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_WEAVER" />
+        </rules>
+    </element>
+    <element name="Master Crafting" type="Class Feature" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_FEATURE_MASTERCRAFTING">
+        <description>
+            <p>Beginning at the 12th level, after receiving and completing your guild quest, you will gain access to the Master Crafting Log.</p>
+            <h5 class="caption">Advanced Melding</h5>
+            <p>Your skill now allows you to meld 2 materia per item</p>
+            <h5 class="caption">Desynthesis</h5>
+            <p class="indent">You gain the ability to attempt to breakdown an item of the type that would appear in your crafting log. The difficulty is equal to the items crafting difficulty. On success you may select up to 2 crafting components to recover (does not include materia) but the item is lost, on failure the item and all components are lost.</p>
+        </description>
+        <rules>
+            <stat name="alchemist:level" value="master" level="12" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_ALCHEMIST" />
+            <stat name="armorer:level" value="master" level="12" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_ARMORER" />
+            <stat name="blacksmith:level" value="master" level="12" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_BLACKSMITH" />
+            <stat name="carpenter:level" value="master" level="12" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_CARPENTER" />
+            <stat name="culinarian:level" value="master" level="12" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_CULINARIAN" />
+            <stat name="goldsmith:level" value="master" level="12" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_GOLDSMITH" />
+            <stat name="leatherworker:level" value="master" level="12" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_LEATHERWORKER" />
+            <stat name="weaver:level" value="master" level="12" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_WEAVER" />
 
-                <stat name="alchemist:desynthesis" value="yes" level="12" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_ALCHEMIST" />
-                <stat name="armorer:desynthesis" value="yes" level="12" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_ARMORER" />
-                <stat name="blacksmith:desynthesis" value="yes" level="12" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_BLACKSMITH" />
-                <stat name="carpenter:desynthesis" value="yes" level="12" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_CARPENTER" />
-                <stat name="culinarian:desynthesis" value="no" level="12" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_CULINARIAN" />
-                <stat name="goldsmith:desynthesis" value="yes" level="12" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_GOLDSMITH" />
-                <stat name="leatherworker:desynthesis" value="yes" level="12" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_LEATHERWORKER" />
-                <stat name="weaver:desynthesis" value="yes" level="12" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_WEAVER" />
-            </rules>
-        </element>
-        <element name="Grandmaster Crafting" type="Class Feature" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_FEATURE_GRANDMASTERCRAFTING">
-            <description>
-                <p>Beginning at the 16th level, after receiving and completing your guild quest, you will gain access to the Grandmaster Crafting Log.</p>
-                <h5 class="caption">Grandmaster Tools</h5>
-                <p>You aquire a set of grandmaster tools for your profession. These provide an additional bonus equal to your proficiency when attempting to craft an item.</p>
-                <h5 class="caption">Extract Materia</h5>
-                <p class="indent">You gain the ability to attempt to extract materia from an item of the type that would appear in your crafting log. The difficulty is equal to the items crafting difficulty. On success the materia is extracted, on failure the materia is lost.</p>
-            </description>
-            <rules>
-                <stat name="alchemist:level" value="grandmaster" level="16" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_ALCHEMIST" />
-                <stat name="armorer:level" value="grandmaster" level="16" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_ARMORER" />
-                <stat name="blacksmith:level" value="grandmaster" level="16" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_BLACKSMITH" />
-                <stat name="carpenter:level" value="grandmaster" level="16" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_CARPENTER" />
-                <stat name="culinarian:level" value="grandmaster" level="16" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_CULINARIAN" />
-                <stat name="goldsmith:level" value="grandmaster" level="16" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_GOLDSMITH" />
-                <stat name="leatherworker:level" value="grandmaster" level="16" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_LEATHERWORKER" />
-                <stat name="weaver:level" value="grandmaster" level="16" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_WEAVER" />
+            <stat name="alchemist:materia" value="2" level="12" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_ALCHEMIST" />
+            <stat name="armorer:materia" value="2" level="12" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_ARMORER" />
+            <stat name="blacksmith:materia" value="2" level="12" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_BLACKSMITH" />
+            <stat name="carpenter:materia" value="2" level="12" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_CARPENTER" />
+            <stat name="culinarian:materia" value="0" level="12" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_CULINARIAN" />
+            <stat name="goldsmith:materia" value="2" level="12" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_GOLDSMITH" />
+            <stat name="leatherworker:materia" value="2" level="12" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_LEATHERWORKER" />
+            <stat name="weaver:materia" value="2" level="12" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_WEAVER" />
 
-                <stat name="alchemist:extract" value="yes" level="16" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_ALCHEMIST" />
-                <stat name="armorer:extract" value="yes" level="16" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_ARMORER" />
-                <stat name="blacksmith:extract" value="yes" level="16" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_BLACKSMITH" />
-                <stat name="carpenter:extract" value="yes" level="16" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_CARPENTER" />
-                <stat name="culinarian:extract" value="no" level="16" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_CULINARIAN" />
-                <stat name="goldsmith:extract" value="yes" level="16" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_GOLDSMITH" />
-                <stat name="leatherworker:extract" value="yes" level="16" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_LEATHERWORKER" />
-                <stat name="weaver:extract" value="yes" level="16" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_WEAVER" />
-            </rules>
-        </element>
-    -->
+            <stat name="alchemist:desynthesis" value="yes" level="12" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_ALCHEMIST" />
+            <stat name="armorer:desynthesis" value="yes" level="12" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_ARMORER" />
+            <stat name="blacksmith:desynthesis" value="yes" level="12" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_BLACKSMITH" />
+            <stat name="carpenter:desynthesis" value="yes" level="12" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_CARPENTER" />
+            <stat name="culinarian:desynthesis" value="no" level="12" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_CULINARIAN" />
+            <stat name="goldsmith:desynthesis" value="yes" level="12" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_GOLDSMITH" />
+            <stat name="leatherworker:desynthesis" value="yes" level="12" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_LEATHERWORKER" />
+            <stat name="weaver:desynthesis" value="yes" level="12" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_WEAVER" />
+        </rules>
+    </element>
+    <element name="Grandmaster Crafting" type="Class Feature" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_CLASS_FEATURE_GRANDMASTERCRAFTING">
+        <description>
+            <p>Beginning at the 16th level, after receiving and completing your guild quest, you will gain access to the Grandmaster Crafting Log.</p>
+            <h5 class="caption">Grandmaster Tools</h5>
+            <p>You aquire a set of grandmaster tools for your profession. These provide an additional bonus equal to your proficiency when attempting to craft an item.</p>
+            <h5 class="caption">Extract Materia</h5>
+            <p class="indent">You gain the ability to attempt to extract materia from an item of the type that would appear in your crafting log. The difficulty is equal to the items crafting difficulty. On success the materia is extracted, on failure the materia is lost.</p>
+        </description>
+        <rules>
+            <stat name="alchemist:level" value="grandmaster" level="16" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_ALCHEMIST" />
+            <stat name="armorer:level" value="grandmaster" level="16" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_ARMORER" />
+            <stat name="blacksmith:level" value="grandmaster" level="16" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_BLACKSMITH" />
+            <stat name="carpenter:level" value="grandmaster" level="16" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_CARPENTER" />
+            <stat name="culinarian:level" value="grandmaster" level="16" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_CULINARIAN" />
+            <stat name="goldsmith:level" value="grandmaster" level="16" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_GOLDSMITH" />
+            <stat name="leatherworker:level" value="grandmaster" level="16" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_LEATHERWORKER" />
+            <stat name="weaver:level" value="grandmaster" level="16" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_WEAVER" />
+
+            <stat name="alchemist:extract" value="yes" level="16" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_ALCHEMIST" />
+            <stat name="armorer:extract" value="yes" level="16" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_ARMORER" />
+            <stat name="blacksmith:extract" value="yes" level="16" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_BLACKSMITH" />
+            <stat name="carpenter:extract" value="yes" level="16" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_CARPENTER" />
+            <stat name="culinarian:extract" value="no" level="16" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_CULINARIAN" />
+            <stat name="goldsmith:extract" value="yes" level="16" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_GOLDSMITH" />
+            <stat name="leatherworker:extract" value="yes" level="16" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_LEATHERWORKER" />
+            <stat name="weaver:extract" value="yes" level="16" inline="true" requires="ID_FFXIV_CLASS_FEATURE_CRAFTING_WEAVER" />
+        </rules>
+    </element>
+-->
 </elements>
