@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
-    <element name="Gunblade (1 handed)" type="Weapon" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_WEAPON_GUNBLADEONEHANDED">
-        <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_SWORDS, ID_INTERNAL_WEAPON_CATEGORY_FIREARM</supports>
-        <description>
-            <p></p>
-        </description>
-        <setters>
-            <set name="category">Weapons</set>
-            <set name="cost" currency="gp">25</set>
-            <set name="weight" lb="5">5 lb.</set>
-            <set name="slot">onehand</set>
-            <set name="range">30/90</set>
-            <set name="damage" type="slashing">1d8</set>
-            <set name="versatile" type="piercing" range="">1d10</set>
-            <set name="proficiency">ID_FFXIV_PROFICIENCY_WEAPON_PROFICIENCY_GUNBLADE</set>
-        </setters>
-    </element>
+<!--    <element name="Gunblade (1 handed)" type="Weapon" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_WEAPON_GUNBLADEONEHANDED">-->
+<!--        <supports>ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_MELEE, ID_INTERNAL_DAMAGE_TYPE_SLASHING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_WEAPON_GROUP_SWORDS, ID_INTERNAL_WEAPON_CATEGORY_FIREARM</supports>-->
+<!--        <description>-->
+<!--            <p></p>-->
+<!--        </description>-->
+<!--        <setters>-->
+<!--            <set name="category">Weapons</set>-->
+<!--            <set name="cost" currency="gp">25</set>-->
+<!--            <set name="weight" lb="5">5 lb.</set>-->
+<!--            <set name="slot">onehand</set>-->
+<!--            <set name="range">30/90</set>-->
+<!--            <set name="damage" type="slashing">1d8</set>-->
+<!--            <set name="versatile" type="piercing" range="">1d10</set>-->
+<!--            <set name="proficiency">ID_FFXIV_PROFICIENCY_WEAPON_PROFICIENCY_GUNBLADE</set>-->
+<!--        </setters>-->
+<!--    </element>-->
 
-    <element name="Weapon Proficiency (Gunblade)" type="Proficiency" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_PROFICIENCY_WEAPON_PROFICIENCY_GUNBLADE">
-        <supports>Weapon, Martial, Melee, Ranged, Firearm, ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_LOADING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_DAMAGE_TYPE_SLASHING</supports>
-        <requirements>ID_FFXIV_CLASS_GUNBREAKER</requirements>
-        <sheet alt="Gunblade" />
-    </element>
+<!--    <element name="Weapon Proficiency (Gunblade)" type="Proficiency" source="Final Fantasy XIV DND Compendium" id="ID_FFXIV_PROFICIENCY_WEAPON_PROFICIENCY_GUNBLADE">-->
+<!--        <supports>Weapon, Martial, Melee, Ranged, Firearm, ID_INTERNAL_WEAPON_CATEGORY_FIREARM, ID_INTERNAL_WEAPON_CATEGORY_MARTIAL_RANGED, ID_INTERNAL_DAMAGE_TYPE_PIERCING, ID_WOTC_DMG_WEAPON_PROPERTY_FIREARM_AMMUNITION, ID_INTERNAL_WEAPON_PROPERTY_LOADING, ID_INTERNAL_WEAPON_PROPERTY_VERSATILE, ID_INTERNAL_DAMAGE_TYPE_SLASHING</supports>-->
+<!--        <requirements>ID_FFXIV_CLASS_GUNBREAKER</requirements>-->
+<!--        <sheet alt="Gunblade" />-->
+<!--    </element>-->
 </elements>
